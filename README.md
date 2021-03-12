@@ -1,5 +1,7 @@
 # Physics-based Animation (物理ベースアニメーション)
 
+- https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20214860-10810F01
+
 ## Instructor
 
 Dr. Nobuyuki Umetani 
@@ -10,10 +12,9 @@ url: http://www.nobuyuki-umetani.com/
 
 lab's website: https://cgenglab.github.io/labpage/en/
 
-
 ## Time
 
-Time: Monday 13:00pm - 14:30pm
+Time: Monday 3rd period, 13:00pm - 14:30pm
 
 ## Course Description
 
