@@ -4,14 +4,15 @@ Follow the instruction below to build the attached C++ code. This code will disp
 
 $$$$$$
 
-(paste the screen shot image here)
+(paste the screenshot image here)
 
 $$$$$$
 
 
-
+----
 ## Instruction 
 
+### Creating a Branch
 First of all, make sure your are in the branch `task0`.  You can check your the current branch by
 
 ```bash
@@ -30,13 +31,14 @@ After creating the branch `task0`, set it as the current branch by
 git checkout task0  # switch into the `task0` branch
 ```
 
-
+### Environment Set Up
 Set up C++ programming environment. You need git, C++ compiler and cmake installed in your computer. Read the following document 
 
 
 `GLFW` library is necessary to compile the code. Read the following document
 
 
+### Compile the Code and Edit this Document
 After the environment is ready, let's build and compile the code. We do **out-of-source** build by making a new directory for build `task0/build` and compile inside that directory
 ```bash
 cd task0
@@ -45,9 +47,10 @@ cd build
 cmake .. 
 cmake --build .
 ```
-
 Update the markdown document by editing `pba-<username>/task0/README.md` (Please learn the syntax of the markdown document by yourself).  
 
+
+### Submit
 Finally, you submit the document by pushing to the repository. 
 
 ```bash
@@ -57,7 +60,7 @@ git commit -m "task0 finished"
 git push
 ```
 
-
+----
 ## Trouble Shooting
 
 - I mistakenly submit the assignement in the `master` branch
