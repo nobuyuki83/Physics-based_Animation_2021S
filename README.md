@@ -33,19 +33,19 @@ Topics:
 
 | Day | Topic | Assignment | Scribble |
 |:----|:---|:---|:---|
-| (1) Apr. 5th | **Introduction**<br> data structure | task0 | |
-| (2) Apr. 19th | **Time Integration**<br>  backward & forward Euler method,<br> particle system | task1 |  |
-| (3) Apr. 26th | **Collision Detection**<br>  bounding volume hierarchy,<br> Kd-tree, N-tree | task2 | |
-| (4) Mar. 10th | **Simple Deformation Energy**<br>  mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | ~~task2~~ | |
-| (5) Mar. 17th | **Numerical Optimization**<br>  Newton-Raphson method,<br> Levenberg–Marquardt method | task3 | |
-| (6) Mar. 24th | **Solving Large Linear System**<br>  matrix data structure,<br> conjugate gradient method | task4 | [[1]](https://www.dropbox.com/s/7fezkmqrz37tquw/linsol_cg.pdf?dl=0), [[2]](https://www.dropbox.com/s/aig0o766erjy41h/linsol_cgprecond.pdf?dl=0), [[3]](https://www.dropbox.com/s/k6vxthj7n27prc4/linsol_ludecomp.pdf?dl=0) |
-| (7) Mar. 31st | **Optimization with Constraint**<br>  Lagrange multiplier method | task5 | |
-| (8) Jun. 7th  | **Rigid Body Dynamics**<br>  inertia tensor, angular velocity | task6 | [[1]](https://www.dropbox.com/s/4ibh1l6ubdvie48/mech_rotation.pdf?dl=0),[[2]](https://www.dropbox.com/s/agiplv7a0rdm39d/mech_rigidbody.pdf?dl=0) |
-| (9) Jun. 14th | **Collision and Friction**<br>  Coulomb friction, impulse based method | task7 | |
-| (10) Jun. 21st | **Continuum Mechanics**<br>  mesh discretization, stress and strain | task8 | |
-| (11) Jun. 28st | **Continuum Mechanics2**<br>  finite elemenet method | task9 | [[1]](https://www.dropbox.com/s/lbrznvk4j7dp577/fem_outline.pdf?dl=0) |
-| (12) Jul. 5th  | **Non-physical Deformation**<br>  singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | task10 | |
-| (13) Jul. 12nd | **Finite Boundary Method**<br>  Green’s functions, thin-plate spline interpolation,<br> radial based function | task11 | [[1]](https://www.dropbox.com/s/50yjspzj79t3oos/bem_laplace.pdf?dl=0),[[2]](https://www.dropbox.com/s/9v8ld9f9kjd28vf/bem_helmholtz.pdf?dl=0) |
+| (1)<br> Apr. 5 | **Introduction**<br> data structure | task0 | |
+| (2)<br> Apr. 19 | **Time Integration**<br>  backward & forward Euler method,<br> particle system | task1 |  |
+| (3)<br> Apr. 26 | **Collision Detection**<br>  bounding volume hierarchy,<br> Kd-tree, N-tree | task2 | |
+| (4)<br> Mar. 10 | **Simple Deformation Energy**<br>  mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | ~~task2~~ | |
+| (5)<br> Mar. 17 | **Numerical Optimization**<br>  Newton-Raphson method,<br> Levenberg–Marquardt method | task3 | |
+| (6)<br> Mar. 24 | **Solving Large Linear System**<br>  matrix data structure,<br> conjugate gradient method | task4 | [[1]](https://www.dropbox.com/s/7fezkmqrz37tquw/linsol_cg.pdf?dl=0), [[2]](https://www.dropbox.com/s/aig0o766erjy41h/linsol_cgprecond.pdf?dl=0), [[3]](https://www.dropbox.com/s/k6vxthj7n27prc4/linsol_ludecomp.pdf?dl=0) |
+| (7)<br> Mar. 31 | **Optimization with Constraint**<br>  Lagrange multiplier method | task5 | |
+| (8)<br> Jun. 7  | **Rigid Body Dynamics**<br>  inertia tensor, angular velocity | task6 | [[1]](https://www.dropbox.com/s/4ibh1l6ubdvie48/mech_rotation.pdf?dl=0),[[2]](https://www.dropbox.com/s/agiplv7a0rdm39d/mech_rigidbody.pdf?dl=0) |
+| (9)<br> Jun. 14 | **Collision and Friction**<br>  Coulomb friction, impulse based method | task7 | |
+| (10)<br> Jun. 21 | **Continuum Mechanics**<br>  mesh discretization, stress and strain | task8 | |
+| (11)<br> Jun. 28 | **Continuum Mechanics2**<br>  finite elemenet method | task9 | [[1]](https://www.dropbox.com/s/lbrznvk4j7dp577/fem_outline.pdf?dl=0) |
+| (12)<br> Jul. 5  | **Non-physical Deformation**<br>  singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | task10 | |
+| (13)<br> Jul. 12 | **Finite Boundary Method**<br>  Green’s functions,<br> thin-plate spline interpolation,<br> radial based function | task11 | [[1]](https://www.dropbox.com/s/50yjspzj79t3oos/bem_laplace.pdf?dl=0),[[2]](https://www.dropbox.com/s/9v8ld9f9kjd28vf/bem_helmholtz.pdf?dl=0) |
 
 ## Grading
 
