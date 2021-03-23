@@ -1,5 +1,10 @@
 # Physics-based Animation (物理ベースアニメーション)
 
+**this page is currently under development**
+
+![under construction](doc/mole.png)
+
+
 ITC-LMS: 
 - https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20214860-10810F01
 
@@ -52,14 +57,14 @@ Topics:
 - 20% lecture attendance
 - 80% small assignemnts
 
-There are many small programming assignments. These assignements needs to be submitted using **pull request** functionality of the GitHub. Let's assume you are looking at the repository `pba-<your GitHub account name>` (e.g., pba-nobuyuki83) and the  `task<task number>` is the assignment (e.g., task2). The submission is made by
+There are many small programming assignments. These assignements needs to be submitted using **pull request** functionality of the GitHub. Let's assume you are looking at the repository `pba-<username>` (e.g., pba-nobuyuki83) and the  `task<task number>` is the assignment (e.g., task2). The submission is made by
 1. create a branch of the name `task<task number>`
-2. in that branch, go to the folder `\pba-<your GitHub account name>/task<task number>`
-3. follow the instruction written in `\pba-<your GitHub account name>/task<task number>/README.md`
+2. in that branch, go to the folder `\pba-<username>/task<task number>`
+3. follow the instruction written in `\pba-<username>/task<task number>/README.md`
 4. push the repository with the branch `task<task number>`
 5. make a pull request 
 
-Instructor will close the pull request after grading. 
+6. Instructor will close the pull request after grading. 
 
 *The submission of an assignment after its deadline is subject to point deduction.*
 

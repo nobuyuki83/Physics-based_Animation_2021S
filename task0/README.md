@@ -1,5 +1,11 @@
 # Task0
 
+**this assignment is currently under development**
+
+![under construction](../doc/mole.png)
+
+
+
 Follow the instruction below to build the attached C++ code. This code will display an OpenGL window showing a triangle.  Take a screenshot of the window and paste the image below.  
 
 $$$$$$
@@ -10,6 +16,10 @@ $$$$$$
 
 
 ----
+
+
+
+
 ## Instruction 
 
 ### Creating a Branch
@@ -31,11 +41,19 @@ After creating the branch `task0`, set it as the current branch by
 git checkout task0  # switch into the `task0` branch
 ```
 
+
+
 ### Environment Set Up
-Set up C++ programming environment. You need git, C++ compiler and cmake installed in your computer. Read the following document 
+
+Do yo have C++ programming environment, let's set it up. At least, you need `git`, `C++ compiler` and `cmake` installed in your computer. Read the following document. 
 
 
-`GLFW` library is necessary to compile the code. Read the following document
+
+`GLFW` library is necessary to compile the code. Read the following document. to set up the library under `pba-<username>/3rd_party/`
+
+[How to Set Up GLFW Library](../doc/setup_glfw.md)
+
+
 
 
 ### Compile the Code and Edit this Document
@@ -50,7 +68,9 @@ cmake --build .
 Update the markdown document by editing `pba-<username>/task0/README.md` (Please learn the syntax of the markdown document by yourself).  
 
 
+
 ### Submit
+
 Finally, you submit the document by pushing to the repository. 
 
 ```bash
@@ -61,6 +81,10 @@ git push
 ```
 
 ----
+
+
+
+
 ## Trouble Shooting
 
 - I mistakenly submit the assignement in the `master` branch
