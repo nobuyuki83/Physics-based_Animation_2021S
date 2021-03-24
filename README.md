@@ -43,30 +43,45 @@ Topics:
 | (3)<br> Apr. 26 | **Collision Detection**<br>  bounding volume hierarchy,<br> Kd-tree, N-tree | task2 | |
 | (4)<br> Mar. 10 | **Simple Deformation Energy**<br>  mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | ~~task2~~ | |
 | (5)<br> Mar. 17 | **Numerical Optimization**<br>  Newton-Raphson method,<br> Levenberg–Marquardt method | task3 | |
-| (6)<br> Mar. 24 | **Solving Large Linear System**<br>  matrix data structure,<br> conjugate gradient method | task4 | [[1]](https://www.dropbox.com/s/7fezkmqrz37tquw/linsol_cg.pdf?dl=0), [[2]](https://www.dropbox.com/s/aig0o766erjy41h/linsol_cgprecond.pdf?dl=0), [[3]](https://www.dropbox.com/s/k6vxthj7n27prc4/linsol_ludecomp.pdf?dl=0) |
+| (6)<br> Mar. 24 | **Solving Large Linear System**<br>  sparse matrix data structure,<br> conjugate gradient method | task4 | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) |
 | (7)<br> Mar. 31 | **Optimization with Constraint**<br>  Lagrange multiplier method | task5 | |
-| (8)<br> Jun. 7  | **Rigid Body Dynamics**<br>  inertia tensor, angular velocity | task6 | [[1]](https://www.dropbox.com/s/4ibh1l6ubdvie48/mech_rotation.pdf?dl=0),[[2]](https://www.dropbox.com/s/agiplv7a0rdm39d/mech_rigidbody.pdf?dl=0) |
+| (8)<br> Jun. 7  | **Rigid Body Dynamics**<br>  inertia tensor, angular velocity | task6 | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf),[[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) |
 | (9)<br> Jun. 14 | **Collision and Friction**<br>  Coulomb friction, impulse based method | task7 | |
 | (10)<br> Jun. 21 | **Continuum Mechanics**<br>  mesh discretization, stress and strain | task8 | |
 | (11)<br> Jun. 28 | **Continuum Mechanics2**<br>  finite elemenet method | task9 | [[1]](https://www.dropbox.com/s/lbrznvk4j7dp577/fem_outline.pdf?dl=0) |
 | (12)<br> Jul. 5  | **Non-physical Deformation**<br>  singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | task10 | |
-| (13)<br> Jul. 12 | **Finite Boundary Method**<br>  Green’s functions,<br> thin-plate spline interpolation,<br> radial based function | task11 | [[1]](https://www.dropbox.com/s/50yjspzj79t3oos/bem_laplace.pdf?dl=0),[[2]](https://www.dropbox.com/s/9v8ld9f9kjd28vf/bem_helmholtz.pdf?dl=0) |
+| (13)<br> Jul. 12 | **Finite Boundary Method**<br>  Green’s functions,<br> thin-plate spline interpolation,<br> radial based function | task11 | [[1]](http://www.nobuyuki-umetani.com/scribble/bem_laplace.pdf),[[2]](http://www.nobuyuki-umetani.com/scribble/bem_helmholtz.pdf) |
+
 
 ## Grading
 
 - 20% lecture attendance
 - 80% small assignemnts
 
+## Assignemnts
+
 There are many small programming assignments. These assignements needs to be submitted using **pull request** functionality of the GitHub. Let's assume you are looking at the repository `pba-<username>` (e.g., pba-nobuyuki83) and the  `task<task number>` is the assignment (e.g., task2). The submission is made by
 1. create a branch of the name `task<task number>`
-2. in that branch, go to the folder `\pba-<username>/task<task number>`
-3. follow the instruction written in `\pba-<username>/task<task number>/README.md`
-4. push the repository with the branch `task<task number>`
-5. make a pull request 
 
-6. Instructor will close the pull request after grading. 
+2. follow the instruction written in `\pba-<username>/task<task number>/README.md`
 
-*The submission of an assignment after its deadline is subject to point deduction.*
+3. push the repository with the branch `task<task number>`
+
+5. make a pull request on GitHub page
+
+5. Instructor will close the pull request after grading. 
+
+### Policy
+
+- Do the assignment by yourself. Don't share the assignemtn with others.
+
+- Don't post the answers of the assignment on  Slack 
+
+- Late submission of an assignment is subject to point deduction
+
+- Score each assignemnt will not be open soon (instructer needs to adjust the score later)
+
+  
 
 
 ## Reading Material
