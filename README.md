@@ -39,7 +39,7 @@ Topics:
 | Day | Topic | Assignment | Scribble |
 |:----|:---|:---|:---|
 | (1)<br> Apr. 5 | **Introduction**<br> data structure | [task0](task0) | |
-| (2)<br> Apr. 19 | **Time Integration**<br>  backward & forward Euler method,<br> particle system | task1 |  |
+| (2)<br> Apr. 19 | **Time Integration**<br>  backward & forward Euler method,<br> particle system | [task1](task1) |  |
 | (3)<br> Apr. 26 | **Collision Detection**<br>  bounding volume hierarchy,<br> Kd-tree, N-tree | task2 | |
 | (4)<br> Mar. 10 | **Simple Deformation Energy**<br>  mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | ~~task2~~ | |
 | (5)<br> Mar. 17 | **Numerical Optimization**<br>  Newton-Raphson method,<br> Levenberg–Marquardt method | task3 | |

@@ -8,11 +8,9 @@
 
 Follow the instruction below to build the attached C++ code. This code will display an OpenGL window showing a triangle.  Take a screenshot of the window and paste it below.  
 
-$$$$$$
+=== (paste the screenshot image here`![](image file name)` ) === 
 
-(paste the screenshot image here)
 
-$$$$$$
 
 
 ----
@@ -112,6 +110,8 @@ git push --set-upstream origin task0  # up date the task0 branch of the remote r
 ```
 
 got to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If everything looks good on this page, make a pull request. 
+
+![](../doc/pullrequest.png)
 
 
 
