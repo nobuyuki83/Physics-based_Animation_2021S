@@ -1,4 +1,24 @@
-## How to Submit the Assignment 
+# How to Submit the Assignment 
+
+There are many small programming assignments. These assignements needs to be submitted using **pull request** functionality of the GitHub. 
+
+![](../doc/branchstructure.png)
+
+Let's assume you are looking at the repository `pba-<username>` (e.g., pba-nobuyuki83) and the  `task<task number>` is the assignment (e.g., task2). The submission is made by
+
+1. create a branch of the name `task<task number>`
+
+2. follow the instruction written in `\pba-<username>/task<task number>/README.md`
+
+3. push the repository with the branch `task<task number>`
+
+4. make a pull request on GitHub page
+
+5. Instructor will close the pull request after grading. 
+
+   
+
+## Setup C++ Programming Environment
 
 First of all, you need to setup C++ Probramming environment (git, cmake, c++ compilar)
 
@@ -6,15 +26,15 @@ First of all, you need to setup C++ Probramming environment (git, cmake, c++ com
 
 
 
+## Download the Repository
+
 If you don't have the local repository in your computer, clone it from the remote repository
 
 ```bash
 $ git clone https://github.com/PBA-2021S/pba-<username>.git
 ```
 
-
-
-Sync the local repository to the remote repository.
+**Before doing each assignment**, Sync the local repository to the remote repository.
 
 ```bash
 $ cd pba-<username>   # go to the local repository
@@ -25,11 +45,15 @@ $ git reset --hard origin/master   # reset the local master branch same as remot
 
 
 
+## Setup Library
+
 You need to install GLFW Library.
 
 - [How to Set Up GLFW Library](../doc/setup_glfw.md)
 
 
+
+## Make Branch for Each Assignment
 
 Create the `task<number>` branch and set it as the current branch. For `task1` the commands look like
 
@@ -43,9 +67,13 @@ Now, you are ready to edit the code and do the assignment!
 
 
 
-=== Edit the code and this mark down document here ===
+## Do the Assignment
+
+ Edit the code and this mark down document.
 
 
+
+## Upload the Change
 
 After you finish editing, you submit the updates pushing to the `task<number>` branch of the remote repository. For `task1` the command look like
 
@@ -59,6 +87,8 @@ git push --set-upstream origin task1  # update the task1 branch of the remote re
 ```
 
 
+
+## Make a Pull Request
 
 got to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If everything looks good on this page, make a pull request. 
 

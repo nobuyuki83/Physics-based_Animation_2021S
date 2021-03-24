@@ -45,10 +45,10 @@ Topics:
 | (5)<br> Mar. 17 | **Numerical Optimization**<br>  Newton-Raphson method,<br> Levenberg–Marquardt method | task3 | |
 | (6)<br> Mar. 24 | **Solving Large Linear System**<br>  sparse matrix data structure,<br> conjugate gradient method | task4 | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) |
 | (7)<br> Mar. 31 | **Optimization with Constraint**<br>  Lagrange multiplier method | task5 | |
-| (8)<br> Jun. 7  | **Rigid Body Dynamics**<br>  inertia tensor, angular velocity | task6 | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf),[[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) |
-| (9)<br> Jun. 14 | **Collision and Friction**<br>  Coulomb friction, impulse based method | task7 | |
-| (10)<br> Jun. 21 | **Continuum Mechanics**<br>  mesh discretization, stress and strain | task8 | |
-| (11)<br> Jun. 28 | **Continuum Mechanics2**<br>  finite elemenet method | task9 | [[1]](https://www.dropbox.com/s/lbrznvk4j7dp577/fem_outline.pdf?dl=0) |
+| (8)<br> Jun. 7  | **Rigid Body Dynamics**<br> inertia tensor, angular velocity | task6 | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf),[[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) |
+| (9)<br> Jun. 14 | **Collision and Friction**<br> Coulomb friction, <br>impulse based method | task7 | |
+| (10)<br> Jun. 21 | **Continuum Mechanics**<br> tensor, stress and strain | task8 | |
+| (11)<br> Jun. 28 | **Continuum Mechanics2**<br> finite elemenet method | task9 | [[1]](https://www.dropbox.com/s/lbrznvk4j7dp577/fem_outline.pdf?dl=0) |
 | (12)<br> Jul. 5  | **Non-physical Deformation**<br>  singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | task10 | |
 | (13)<br> Jul. 12 | **Finite Boundary Method**<br>  Green’s functions,<br> thin-plate spline interpolation,<br> radial based function | task11 | [[1]](http://www.nobuyuki-umetani.com/scribble/bem_laplace.pdf),[[2]](http://www.nobuyuki-umetani.com/scribble/bem_helmholtz.pdf) |
 
@@ -60,20 +60,13 @@ Topics:
 
 ## Assignemnts
 
-There are many small programming assignments. These assignements needs to be submitted using **pull request** functionality of the GitHub. Let's assume you are looking at the repository `pba-<username>` (e.g., pba-nobuyuki83) and the  `task<task number>` is the assignment (e.g., task2). The submission is made by
-1. create a branch of the name `task<task number>`
+There are many small programming assignments. To do the assignments, you need to create your own copy of this repository through **GitHub Classroom**.  These assignements needs to be submitted using **pull request** functionality of the GitHub. Look at the following document. 
 
-2. follow the instruction written in `\pba-<username>/task<task number>/README.md`
-
-3. push the repository with the branch `task<task number>`
-
-5. make a pull request on GitHub page
-
-5. Instructor will close the pull request after grading. 
+[How to Submit the Assignments](doc/submit.md)
 
 ### Policy
 
-- Do the assignment by yourself. Don't share the assignemtn with others.
+- Do the assignment by yourself. Don't share the assignments with others.
 
 - Don't post the answers of the assignment on  Slack 
 
