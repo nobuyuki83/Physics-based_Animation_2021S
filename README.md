@@ -40,17 +40,17 @@ Topics:
 |:----|:---|:---|:---|
 | (1)<br> Apr. 5 | **Introduction**<br> data structure | [task0](task0) | |
 | (2)<br> Apr. 19 | **Time Integration**<br>  backward & forward Euler method,<br> particle system | [task1](task1) |  |
-| (3)<br> Apr. 26 | **Collision Detection**<br>  bounding volume hierarchy,<br> Kd-tree, N-tree | task2 | |
-| (4)<br> Mar. 10 | **Simple Deformation Energy**<br>  mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | ~~task2~~ | |
-| (5)<br> Mar. 17 | **Numerical Optimization**<br>  Newton-Raphson method,<br> Levenberg–Marquardt method | task3 | |
-| (6)<br> Mar. 24 | **Solving Large Linear System**<br>  sparse matrix data structure,<br> conjugate gradient method | task4 | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) |
-| (7)<br> Mar. 31 | **Optimization with Constraint**<br>  Lagrange multiplier method | task5 | |
-| (8)<br> Jun. 7  | **Rigid Body Dynamics**<br> inertia tensor, angular velocity | task6 | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf),[[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) |
-| (9)<br> Jun. 14 | **Collision and Friction**<br> Coulomb friction, <br>impulse based method | task7 | |
-| (10)<br> Jun. 21 | **Continuum Mechanics**<br> tensor, stress and strain | task8 | |
-| (11)<br> Jun. 28 | **Continuum Mechanics2**<br> finite elemenet method | task9 | [[1]](https://www.dropbox.com/s/lbrznvk4j7dp577/fem_outline.pdf?dl=0) |
-| (12)<br> Jul. 5  | **Non-physical Deformation**<br>  singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | task10 | |
-| (13)<br> Jul. 12 | **Finite Boundary Method**<br>  Green’s functions,<br> thin-plate spline interpolation,<br> radial based function | task11 | [[1]](http://www.nobuyuki-umetani.com/scribble/bem_laplace.pdf),[[2]](http://www.nobuyuki-umetani.com/scribble/bem_helmholtz.pdf) |
+| (3)<br> Apr. 26 | **Collision Detection**<br>  bounding volume hierarchy,<br> Kd-tree, N-tree | [task2](task2) | |
+| (4)<br> Mar. 10 | **Simple Deformation Energy**<br> mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | [task3](task3) | |
+| (5)<br> Mar. 17 | **Numerical Optimization**<br>  Newton-Raphson method,<br> Levenberg–Marquardt method | [task4](task4) | |
+| (6)<br> Mar. 24 | **Solving Large Linear System**<br> sparse matrix data structure,<br> conjugate gradient method | [task5](task5) | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) |
+| (7)<br> Mar. 31 | **Optimization with Constraint**<br> Lagrange multiplier method | [task6](task6) | |
+| (8)<br> Jun. 7  | **Rigid Body Dynamics**<br>inertia tensor, <br>angular velocity | [task7](task7) | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf),[[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) |
+| (9)<br> Jun. 14 | **Collision and Friction**<br>Coulomb friction, <br>impulse based method | ~~task8~~ | |
+| (10)<br> Jun. 21 | **Continuum Mechanics**<br> tensor, stress and strain | ~~task9~~ | |
+| (11)<br> Jun. 28 | **Continuum Mechanics2**<br> finite elemenet method | [task10](task10) | [[1]](https://www.dropbox.com/s/lbrznvk4j7dp577/fem_outline.pdf?dl=0) |
+| (12)<br> Jul. 5  | **Non-physical Deformation**<br> singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | [task11](task11) | |
+| (13)<br> Jul. 12 | **Finite Boundary Method**<br> Green’s functions,<br> thin-plate spline interpolation,<br> radial based function | [task12](task12) | [[1]](http://www.nobuyuki-umetani.com/scribble/bem_laplace.pdf),[[2]](http://www.nobuyuki-umetani.com/scribble/bem_helmholtz.pdf) |
 
 
 ## Grading
@@ -70,7 +70,7 @@ There are many small programming assignments. To do the assignments, you need to
 
 - Don't post the answers of the assignment on  Slack 
 
-- Late submission of an assignment is subject to point deduction
+- Late submission of an assignment is subject to grade deduction
 
 - Score each assignemnt will not be open soon (instructer needs to adjust the score later)
 

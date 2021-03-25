@@ -93,3 +93,11 @@ git push --set-upstream origin task1  # update the task1 branch of the remote re
 got to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If everything looks good on this page, make a pull request. 
 
 ![](../doc/pullrequest.png)
+
+
+
+## Trouble Shooting
+
+I mistakenly submit the assignement in the `master` branch
+
+- Make a branch `task<number>` and submit again
