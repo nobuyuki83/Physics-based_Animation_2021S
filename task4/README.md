@@ -48,10 +48,6 @@ Using the **Boundary Volume Hierarcy (BVH)**, make the program faster.
 ----
 
 
-## Trouble Shooting
-
-- I mistakenly submit the assignement in the `master` branch
-  - Make a branch `task0` and submit again
 
 
 

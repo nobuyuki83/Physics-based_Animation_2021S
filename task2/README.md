@@ -44,12 +44,6 @@ Optimize the position of red point such that it will minimise the sum of the squ
 ----
 
 
-## Trouble Shooting
-
-- I mistakenly submit the assignement in the `master` branch
-  - Make a branch `task0` and submit again
-
-
 
 
 
