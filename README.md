@@ -23,7 +23,7 @@ Time: Monday 3rd period, 13:00pm - 14:30pm
 
 ## Course Description
 
-Abstract: Computer-generated images are everywhere in movies, video games, and VR. This course is an introduction to the techniques to animate objects in computer graphics based on the law of physics. The aim of the course is to get familiar with applied mathematics such as linear algebra, vector analysis, partial differential equations, variational principle, optimization, and numerical analysis through the animation techniques for particle systems, rigid bodies, elastic bodies. There are C++ programming assignments to acquire research-oriented graphics programming skills. 
+Computer-generated images are everywhere in movies, video games, and VR. This course is an introduction to the techniques to animate objects in computer graphics based on the law of physics. The aim of the course is to get familiar with applied mathematics such as linear algebra, vector analysis, partial differential equations, variational principle, optimization, and numerical analysis through the animation techniques for particle systems, rigid bodies, elastic bodies. There are C++ programming assignments to acquire research-oriented graphics programming skills. 
 
 Topics:
 - mass-spring simulation
@@ -41,7 +41,7 @@ Topics:
 | (1)<br> Apr. 5 | **Introduction**<br>data structure for simulation<br>Implicit surface | [task0](task0) | |  |
 | (2)<br> Apr. 19 | **Time Integration**<br> backward & forward Euler method,<br> particle system | [task1](task1) |  |  |
 | (3)<br> Apr. 26 | **Collision Detection**<br> bounding volume hierarchy,<br> Kd-tree, N-tree | [task2](task2) | |  |
-| (4)<br> Mar. 10 | **Simple Deformation Energy**<br> mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | [task3](task3) | |  |
+| (4)<br> Mar. 10 | **Simple Deformation Energy**<br> mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | [task3](task3) | | [[1]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf) |
 | (5)<br> Mar. 17 | **Numerical Optimization**<br> Newton-Raphson method,<br> Levenberg–Marquardt method | [task4](task4) | |  |
 | (6)<br> Mar. 24 | **Solving Large Linear System**<br> sparse matrix data structure,<br> conjugate gradient method | [task5](task5) | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) |  |
 | (7)<br> Mar. 31 | **Optimization with Constraint**<br> Lagrange multiplier method | [task6](task6) | | [[1]](http://www.nobuyuki-umetani.com/scribble/optimization_with_constraints.pdf) |
@@ -72,7 +72,7 @@ There are many small programming assignments. To do the assignments, you need to
 
 - Late submission of an assignment is subject to grade deduction
 
-- Score each assignemnt will not be open soon (instructer needs to adjust the score later)
+- Score each assignemnt will not be open soon (instructer needs to adjust weight of the the score later)
 
   
 
