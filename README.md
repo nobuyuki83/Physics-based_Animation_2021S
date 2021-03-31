@@ -38,7 +38,7 @@ Topics:
 
 | Day | Topic | Assignment | Scribble | Slide |
 |:----|:---|:---|:---|-----|
-| (1)<br> Apr. 5 | **Introduction**<br>data structure for simulation<br>Implicit surface | [task0](task0) | | [[1]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf) |
+| (1)<br> Apr. 5 | **Introduction**<br>data structure for simulation<br>Implicit surface | [task0](task0) | | [[1]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) [[2]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf) |
 | (2)<br> Apr. 19 | **Time Integration**<br> backward & forward Euler method,<br> particle system | [task1](task1) |  |  |
 | (3)<br> Apr. 26 | **Collision Detection**<br> bounding volume hierarchy,<br> Kd-tree, N-tree | [task2](task2) | |  |
 | (4)<br> Mar. 10 | **Simple Deformation Energy**<br> mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | [task3](task3) | | [[1]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf) |
