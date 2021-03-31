@@ -38,7 +38,7 @@ Topics:
 
 | Day | Topic | Assignment | Scribble | Slide |
 |:----|:---|:---|:---|-----|
-| (1)<br> Apr. 5 | **Introduction**<br>data structure for simulation<br>Implicit surface | [task0](task0) | |  |
+| (1)<br> Apr. 5 | **Introduction**<br>data structure for simulation<br>Implicit surface | [task0](task0) | | [[1]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf) |
 | (2)<br> Apr. 19 | **Time Integration**<br> backward & forward Euler method,<br> particle system | [task1](task1) |  |  |
 | (3)<br> Apr. 26 | **Collision Detection**<br> bounding volume hierarchy,<br> Kd-tree, N-tree | [task2](task2) | |  |
 | (4)<br> Mar. 10 | **Simple Deformation Energy**<br> mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | [task3](task3) | | [[1]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf) |
@@ -82,4 +82,8 @@ There are many small programming assignments. To do the assignments, you need to
 - [Physically Based Modeling: Principles and Practice, Siggraph '97 Course notes by Dr. Baraff](http://www.cs.cmu.edu/~baraff/sigcourse/index.html)
 
 - [Physics-Based Animation  by Kenny Erleben et al. (free textobook about rigid body dynamics)](https://iphys.wordpress.com/2020/01/12/free-textbook-physics-based-animation/)
+
+- [Awesome Computer Graphics (GitHub)](https://github.com/luisnts/awesome-computer-graphics)
+
+  
 
