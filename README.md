@@ -1,8 +1,6 @@
 # Physics-based Animation (物理ベースアニメーション)
 
-**this page is currently under development**
-
-![under construction](doc/mole.png)
+![under construction](doc/rep_image.png)
 
 
 ITC-LMS: 
