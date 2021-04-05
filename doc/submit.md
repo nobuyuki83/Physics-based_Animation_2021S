@@ -2,6 +2,18 @@
 
 There are many small programming assignments. These assignements needs to be submitted using **pull request** functionality of the GitHub. 
 
+
+
+## Making your repository using GitHub Classroom
+
+![](../doc/githubclassroom.png)
+
+The assignment is submitted using "pullrequest" functionality of the GitHub. Using the system called "GitHub Classroom", students makes their own private repository that is a copy of "https://github.com/PBA-2021S/pba". If a student have a GitHub account named "hoge", the name of the repository will be "pba-hoge". The private repository if only visible from the student and the instructor. In the second class, It will be shown how to make your own class repository using GitHub classroom. 
+
+
+
+## Overview
+
 ![](../doc/branchstructure.png)
 
 Let's assume you are looking at the repository `pba-<username>` (e.g., pba-nobuyuki83) and the  `task<task number>` is the assignment (e.g., task2). The submission is made by

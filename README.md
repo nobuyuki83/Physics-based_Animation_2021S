@@ -17,7 +17,7 @@ Dr. Nobuyuki Umetani
 
 ## Time
 
-Time: Monday 3rd period, 13:00pm - 14:30pm
+Monday 3rd period, 13:00pm - 14:30pm
 
 ## Course Description
 
