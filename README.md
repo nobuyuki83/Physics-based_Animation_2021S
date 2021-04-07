@@ -44,7 +44,7 @@ Topics:
 | (6)<br> Mar. 24 | **Solving Large Linear System**<br> sparse matrix data structure,<br> conjugate gradient method | [task5](task5) | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) |  |
 | (7)<br> Mar. 31 | **Optimization with Constraint**<br> Lagrange multiplier method | [task6](task6) | | [[1]](http://www.nobuyuki-umetani.com/scribble/optimization_with_constraints.pdf) |
 | (8)<br> Jun. 7  | **Rigid Body Dynamics**<br>inertia tensor, <br>angular velocity | [task7](task7) | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) | [[1]](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf) |
-| (9)<br> Jun. 14 | **Collision and Friction**<br>Coulomb friction, <br>impulse based method | ~~task8~~ | |  |
+| (9)<br> Jun. 14 | **Collision and Friction**<br>Coulomb friction, <br>impulse based method | ~~task8~~ | | [[1]](http://www.nobuyuki-umetani.com/scribble/collision_detection_narrow.pdf) |
 | (10)<br> Jun. 21 | **Continuum Mechanics**<br> tensor, stress and strain | ~~task9~~ | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_fluidcontinuum.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/mech_fluidgoverning.pdf) | [[1]](http://www.nobuyuki-umetani.com/scribble/tensor.pdf) |
 | (11)<br> Jun. 28 | **Continuum Mechanics2**<br> finite elemenet method | [task10](task10) | [[1]](http://www.nobuyuki-umetani.com/scribble/fem_outline.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/fem_linearsolid.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/fem_mitc3.pdf) |  |
 | (12)<br> Jul. 5  | **Non-physical Deformation**<br> singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | [task11](task11) | |  |
@@ -58,7 +58,7 @@ Topics:
   - Maximum 1 count for 1 lecture, 5 counts for entire course
   - Starting from the second lecture
   - Tell me your student ID & name when asking questions
-  - The students who don't want to speak in English can write the question in English in the chat (the instructor will pick it up and ask the name & ID)
+  - The students who don't want to speak in English can write the question in English in the ZOOM chat (the instructor will pick it up and ask the ID & name)
 - 80% small assignemnts
   - see below
 
