@@ -36,9 +36,9 @@ Topics:
 
 | Day | Topic | Assignment | Scribble | Slide |
 |:----|:---|:---|:---|-----|
-| (1)<br> Apr. 5 | **Introduction**<br>data structure for simulation<br>Implicit surface |  | | [[1]](http://www.nobuyuki-umetani.com/scribble/introduction.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf) |
-| (2)<br> Apr. 19 | **Time Integration**<br> Newtonian-mechanics<br> backward & forward Euler method,<br> particle system | [task0](task0)<br>[task1](task1) |  |  |
-| (3)<br> Apr. 26 | **Collision Detection**<br> bounding volume hierarchy,<br> Kd-tree, N-tree | [task2](task2) | |  |
+| (1)<br> Apr. 5 | **Introduction**<br>data structure for simulation<br>Implicit surface |  | | [[1]](http://www.nobuyuki-umetani.com/scribble/introduction.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) |
+| (2)<br> Apr. 19 | **Time Integration**<br> Newtonian-mechanics<br> backward & forward Euler method,<br> particle system | [task0](task0)<br>[task1](task1) |  | [[1]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf) |
+| (3)<br> Apr. 26 | **Collision Detection**<br> bounding volume hierarchy,<br> Kd-tree, N-tree | [task2](task2) | | [[1]](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf) |
 | (4)<br> Mar. 10 | **Simple Deformation Energy**<br> mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | [task3](task3) | | [[1]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf) |
 | (5)<br> Mar. 17 | **Numerical Optimization**<br> Newton-Raphson method,<br> Levenberg–Marquardt method | [task4](task4) | |  |
 | (6)<br> Mar. 24 | **Solving Large Linear System**<br> sparse matrix data structure,<br> conjugate gradient method | [task5](task5) | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) |  |
@@ -58,6 +58,7 @@ Topics:
   - Maximum 1 count for 1 lecture, 5 counts for entire course
   - Starting from the second lecture
   - Tell me your student ID & name when asking questions
+  - The students who don't want to speak in English can write the question in English in the chat (the instructor will pick it up and ask the name & ID)
 - 80% small assignemnts
   - see below
 
