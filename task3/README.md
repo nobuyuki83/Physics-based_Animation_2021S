@@ -4,9 +4,7 @@
 
 ----
 
-# Task4: Simple Deformation Energy
-
-![task3_preview](../doc/task3_preview.png)
+# Task3: Deformation Using Optimization
 
 ## Setting Up
 
@@ -35,11 +33,7 @@ Run the program and take a screen shot.
 
 ## Problem 2
 
-Optimize the deformation enrgy by solving the minimization of the deformation energy one-by-one for each vertex. 
-
-
-
-
+Optimize the deformation energy by solving the minimization of the deformation energy one-by-one for each vertex. 
 
 ----
 

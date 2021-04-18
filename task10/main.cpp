@@ -26,7 +26,7 @@ int main()
     viewer.view_height = 1.0;
     viewer.trans[0] = -0.5;
     viewer.trans[1] = -0.5;
-    viewer.title = "task9";
+    viewer.title = "task10";
   }
   glfwSetErrorCallback(error_callback);
   if ( !glfwInit() ) { exit(EXIT_FAILURE); }

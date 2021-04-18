@@ -4,7 +4,9 @@
 
 ----
 
-# Task4: Optimization
+# Task2: Optimization
+
+![task2_preview](../doc/task2_preview.png)
 
 ## Setting Up
 

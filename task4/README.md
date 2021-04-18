@@ -6,6 +6,8 @@
 
 # Task4: Bounding Volume Hierarchy
 
+![task4_preview](../doc/task4_preview.png)
+
 ## Setting Up
 
 Pleae look at the following document for environment setup, creating branch, and making pull request.
