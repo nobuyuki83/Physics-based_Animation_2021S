@@ -27,6 +27,9 @@ jobs:
         cd 3rd_party/glfw
         cmake .
         cmake --build .
+        cmake -E make_directory ../GLFW_Lib
+        cmake --install . --prefix ../GLFW_Lib
+
 
     - name: get_delfem2
       run: |
