@@ -4,7 +4,7 @@
 
 ----
 
-# Task1
+# Task1: Particle System
 
 ![task1_preview](../doc/task1_preview.png)
 

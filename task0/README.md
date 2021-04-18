@@ -5,7 +5,7 @@
 
 ----
 
-# Task0
+# Task0: Build C++ Program with CMake
 
 ![preview](../doc/task0_preview.png)
 

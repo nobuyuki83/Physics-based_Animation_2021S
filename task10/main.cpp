@@ -10,13 +10,13 @@ static void error_callback(int error, const char* description){
 }
 
 void Draw(){
-  glBegin(GL_LINE_LOOP);
-  glColor3f(0.f, 0.f, 0.f);
-  glVertex2f(0.f, 0.f);
-  glVertex2f(1.f, 0.f);
-  glVertex2f(1.f, 1.f);
-  glVertex2f(0.f, 1.f);
-  glEnd();
+  ::glBegin(GL_LINE_LOOP);
+  ::glColor3f(0.f, 0.f, 0.f);
+  ::glVertex2f(0.f, 0.f);
+  ::glVertex2f(1.f, 0.f);
+  ::glVertex2f(1.f, 1.f);
+  ::glVertex2f(0.f, 1.f);
+  ::glEnd();
 }
 
 int main()
@@ -26,12 +26,12 @@ int main()
     viewer.view_height = 1.0;
     viewer.trans[0] = -0.5;
     viewer.trans[1] = -0.5;
-    viewer.title = "task10";
+    viewer.title = "task10: Thin-spline Deformation";
   }
-  glfwSetErrorCallback(error_callback);
+  ::glfwSetErrorCallback(error_callback);
   if ( !glfwInit() ) { exit(EXIT_FAILURE); }
-  glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
-  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
+  ::glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+  ::glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
   // ------
   viewer.InitGL();
 
@@ -40,9 +40,9 @@ int main()
     viewer.DrawBegin_oldGL();
     Draw();
     viewer.SwapBuffers();
-    glfwPollEvents();
+    ::glfwPollEvents();
   }
-  glfwDestroyWindow(viewer.window);
-  glfwTerminate();
+  ::glfwDestroyWindow(viewer.window);
+  ::glfwTerminate();
   exit(EXIT_SUCCESS);
 }
