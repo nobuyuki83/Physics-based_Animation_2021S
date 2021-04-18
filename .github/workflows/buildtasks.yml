@@ -18,6 +18,7 @@ jobs:
 
     - name: get_glfw
       run: |
+        sudo apt-get install xorg-dev libglu1-mesa-dev
         git submodule update --init -- 3rd_party/glfw
         cd 3rd_party/glfw
         cmake .
