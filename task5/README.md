@@ -1,12 +1,13 @@
-# Task5: Solving Large Linear System
-
 **this assignment is currently under development**
 
 ![under construction](../doc/mole.png)
 
 
-
 ----
+
+# Task5: Solving Large Linear System
+
+## Setting Up
 
 Pleae look at the following document for environment setup, creating branch, and making pull request.
 

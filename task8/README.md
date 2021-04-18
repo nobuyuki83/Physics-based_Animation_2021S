@@ -1,12 +1,12 @@
-# Task10: Continuum Mechanics
-
 **this assignment is currently under development**
 
 ![under construction](../doc/mole.png)
 
-
-
 ----
+
+# Task10: Continuum Mechanics
+
+## Setting Up
 
 Pleae look at the following document for environment setup, creating branch, and making pull request.
 

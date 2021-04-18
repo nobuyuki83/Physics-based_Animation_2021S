@@ -1,12 +1,12 @@
-# Task6: Optimization with Constraints
-
 **this assignment is currently under development**
 
 ![under construction](../doc/mole.png)
 
-
-
 ----
+
+# Task6: Optimization with Constraints
+
+## Setting Up
 
 Pleae look at the following document for environment setup, creating branch, and making pull request.
 

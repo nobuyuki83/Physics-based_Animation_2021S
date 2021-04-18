@@ -1,12 +1,12 @@
-# Task4: Bounding Volume Hierarchy
-
 **this assignment is currently under development**
 
 ![under construction](../doc/mole.png)
 
-
-
 ----
+
+# Task4: Bounding Volume Hierarchy
+
+## Setting Up
 
 Pleae look at the following document for environment setup, creating branch, and making pull request.
 

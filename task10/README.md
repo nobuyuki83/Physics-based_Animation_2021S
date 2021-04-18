@@ -1,10 +1,11 @@
-# Task12: Thin Spline Deformation
-
 **this assignment is currently under development**
 
 ![under construction](../doc/mole.png)
 
 ----
+# Task12: Thin-spline Deformation
+
+## Setting Up
 
 Pleae look at the following document for environment setup, creating branch, and making pull request.
 

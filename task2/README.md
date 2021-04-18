@@ -1,12 +1,10 @@
-# Task4: Optimization
-
 **this assignment is currently under development**
 
 ![under construction](../doc/mole.png)
 
-
-
 ----
+
+# Task4: Optimization
 
 ## Setting Up
 

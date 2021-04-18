@@ -1,13 +1,14 @@
-# Task1
-
 **this assignment is currently under development**
 
 ![under construction](../doc/mole.png)
 
+----
+
+# Task1
+
 ![task1_preview](../doc/task1_preview.png)
 
-
-----
+## Setting Up
 
 Pleae look at the following document for environment setup, creating branch, and making pull request.
 

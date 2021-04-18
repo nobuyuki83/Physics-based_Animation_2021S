@@ -1,10 +1,12 @@
-# Task4: Simple Deformation Energy
-
 **this assignment is currently under development**
 
 ![under construction](../doc/mole.png)
 
 ----
+
+# Task4: Simple Deformation Energy
+
+![task3_preview](../doc/task3_preview.png)
 
 ## Setting Up
 
