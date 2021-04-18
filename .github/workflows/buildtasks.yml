@@ -16,16 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: install_glfw    
-      run: |
-        sudo apt-get update
-        sudo apt-get install libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
-        sudo apt-get install libxmu-dev xorg-dev
-        sudo apt-get install libglfw3-dev 
-        sudo apt-get install libopenal-dev
-        sudo apt-get install libgl1-mesa-dev
-
-    - name: get_delfem2
+    - name: get_glfw
       run: |
         git submodule update --init -- 3rd_party/glfw
         cd 3rd_party/glfw

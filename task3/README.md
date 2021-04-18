@@ -4,8 +4,6 @@
 
 ![under construction](../doc/mole.png)
 
-
-
 ----
 
 ## Setting Up

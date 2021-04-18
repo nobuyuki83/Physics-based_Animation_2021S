@@ -1,10 +1,8 @@
-# Task12: Boundary Element Method
+# Task12: Thin Spline Deformation
 
 **this assignment is currently under development**
 
 ![under construction](../doc/mole.png)
-
-
 
 ----
 

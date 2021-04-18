@@ -1,4 +1,4 @@
-# Task11: Non-physical Deformation
+# Task11: Shape Matching Deformation
 
 **this assignment is currently under development**
 

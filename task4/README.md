@@ -1,4 +1,4 @@
-# Task4: Optimization
+# Task4: Bounding Volume Hierarchy
 
 **this assignment is currently under development**
 
