@@ -1,7 +1,6 @@
 # Physics-based Animation (物理ベースアニメーション)
 
-[![CMake](https://github.com/PBA-2021S/pba/actions/workflows/build.yml/badge.svg)](https://github.com/PBA-2021S/pba/actions/workflows/build.yml)
-
+[![BuildTasks](https://github.com/PBA-2021S/pba/actions/workflows/buildtasks.yml/badge.svg)](https://github.com/PBA-2021S/pba/actions/workflows/buildtasks.yml)
 
 
 ![under construction](doc/rep_image.png)
