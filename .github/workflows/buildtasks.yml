@@ -25,6 +25,17 @@ jobs:
         sudo apt-get install libopenal-dev
         sudo apt-get install libgl1-mesa-dev
 
+    - name: get_delfem2
+      run: |
+        git submodule update --init -- 3rd_party/glfw
+        cd 3rd_party/glfw
+        cmake .
+        cmake --build .
+
+    - name: get_delfem2
+      run: |
+        git submodule update --init -- 3rd_party/delfem2
+
     - name: build
       run: |
         cmake .
