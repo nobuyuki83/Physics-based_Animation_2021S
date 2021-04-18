@@ -4,6 +4,7 @@
 
 ![under construction](../doc/mole.png)
 
+![task1_preview](../doc/task1_preview.png)
 
 
 ----
@@ -25,15 +26,16 @@ $ git submodule update --init 3rd_party/delfem2
 
 ## Problem1
 
-Build the code for 2D particle system and take a screenshot.
+Build the code for 2D particle system and take a screenshot (looks like image at the top). 
+Paste the screen shot image below
 
-=== Paste the screen shot here`![](<image file name>)`  ===
+=== Paste the screen shot here`![](<image file name>)` ===
 
 
 
 ## Problem 2
 
-Add gravity to the 2D particle system.  
+Modify `main.cpp` to add gravity to the 2D particle system.  Take screen shot. 
 
 === Paste the screen shot here`![](<image file name>)`  ===
 
@@ -41,7 +43,7 @@ Add gravity to the 2D particle system.
 
 ## Problem 3
 
-Add an obstacle in the middle.
+Modify `main.cpp` to collide points with the circular obstacle in the middle.
 
 === Paste the screen shot here`![](<image file name>)`  ===
 

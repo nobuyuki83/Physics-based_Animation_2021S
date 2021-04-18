@@ -43,9 +43,9 @@ Topics:
 |:----|:---|:---|:---|-----|
 | (1)<br> Apr. 5 | **Introduction**<br>data structure for simulation<br>Implicit surface |  | | [[1]](http://www.nobuyuki-umetani.com/scribble/introduction.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) |
 | (2)<br> Apr. 19 | **Time Integration**<br> Newtonian-mechanics<br> backward & forward Euler method,<br> particle system | [task0](task0)<br> |  | [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/time_integration.pdf), [[4]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf) |
-| (3)<br> Apr. 26 | **Collision Detection**<br> bounding volume hierarchy,<br> Kd-tree, N-tree | [task1](task1)<br>[task2](task2) | | [[5]](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf) |
+| (3)<br> Apr. 26 | **Collision Detection**<br> bounding volume hierarchy,<br> Kd-tree, N-tree | [task4](task4)                   | | [[5]](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf) |
 | (4)<br> Mar. 10 | **Simple Deformation Energy**<br> mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | [task3](task3) | | [[6]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf) |
-| (5)<br> Mar. 17 | **Numerical Optimization**<br> Newton-Raphson method,<br> Levenberg–Marquardt method | [task4](task4) | |  |
+| (5)<br> Mar. 17 | **Numerical Optimization**<br> Newton-Raphson method,<br> Levenberg–Marquardt method | [task1](task1)<br>[task2](task2) | |  |
 | (6)<br> Mar. 24 | **Solving Large Linear System**<br> sparse matrix data structure,<br> conjugate gradient method | [task5](task5) | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) | [[8]](http://www.nobuyuki-umetani.com/scribble/matrix_solver.pdf) |
 | (7)<br> Mar. 31 | **Optimization with Constraint**<br> Lagrange multiplier method | [task6](task6) | | [[9]](http://www.nobuyuki-umetani.com/scribble/optimization_with_constraints.pdf) |
 | (8)<br> Jun. 7  | **Rigid Body Dynamics**<br>inertia tensor, <br>angular velocity | [task7](task7) | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) | [[10]](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf) |
@@ -77,13 +77,28 @@ There are many small programming assignments. To do the assignments, you need to
 
 - Do the assignment by yourself. Don't share the assignments with others.
 
-- Don't post the answers of the assignment on  Slack 
+- Don't post the answers of the assignment on Slack 
 
 - Late submission of an assignment is subject to grade deduction
 
 - Score each assignemnt will not be open soon (instructer needs to adjust weight of the score later)
 
-  
+
+### Tasks
+
+- [task0](task0):  Make C++ Program with CMake
+- [task1](task1): Particle System
+- [task2](task2): Optimization
+- [task3](task3): Deformation Using Optimization
+- [task4](task4) : Bounding Volume Hierachy
+- [task5](task5): Solving Large Linear System
+- [task6](task6): Optimization with Constraints
+- [task7](task7): Princepal Axes
+- [task8](task8): Deformation Gradient Tensor
+- [task9](task9): Shape Matching Method
+- [task10](task10): Thin Spline Deformation
+
+
 
 ## Slides
 

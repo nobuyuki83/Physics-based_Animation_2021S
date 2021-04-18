@@ -1,12 +1,12 @@
 # Task0
 
 **this assignment is currently under development**
-
 ![under construction](../doc/mole.png)
 
 
+![preview](../doc/task0_preview.png)
 
-Follow the instruction below to build the attached C++ code. This code will display an OpenGL window showing a triangle.  Take a screenshot of the window and paste it below.  
+Follow the instruction below to build the attached C++ code. This code will display an OpenGL window showing a triangle.  Take a screenshot of the window (looks like the image above) and paste it below.  
 
 === (paste the screenshot image here`![](image file name)` ) === 
 

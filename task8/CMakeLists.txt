@@ -11,7 +11,7 @@ ELSE()
   set(CMAKE_CXX_FLAGS "-Wall -Wno-deprecated-declarations -g")
 ENDIF()
 
-project(task1)
+project(task8)
 
 ################################
 

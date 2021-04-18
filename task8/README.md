@@ -1,4 +1,4 @@
-# Task12: Boundary Element Method
+# Task10: Continuum Mechanics
 
 **this assignment is currently under development**
 
@@ -33,7 +33,7 @@ Compile the `main.cpp` using the `CMakeLists.txt` and take a screen shot. Past t
 
 ## Problem 2
 
-Edit `main.cpp` to interpolate the displacement of red points to deform  
+Edit `main.cpp` to compute the minimization of ||F^TF-I||.
 
 
 
