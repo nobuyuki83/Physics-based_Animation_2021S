@@ -93,7 +93,7 @@ There are many small programming assignments. To do the assignments, you need to
 - [task4](task4) : Bounding Volume Hierachy
 - [task5](task5): Solving Large Linear System
 - [task6](task6): Optimization with Constraints
-- [task7](task7): Princepal Axes
+- [task7](task7): Princepal Axes of 3D Shape
 - [task8](task8): Deformation Gradient Tensor
 - [task9](task9): Shape Matching Method
 - [task10](task10): Thin Spline Deformation

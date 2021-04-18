@@ -6,6 +6,8 @@
 
 # Task6: Optimization with Constraints
 
+![task6_preview](../doc/task6_preview.png)
+
 ## Setting Up
 
 Pleae look at the following document for environment setup, creating branch, and making pull request.

@@ -11,9 +11,9 @@ static void error_callback(int error, const char* description)
 int main()
 {
   glfwSetErrorCallback(error_callback);
-  if ( !glfwInit() ) {
-    exit(EXIT_FAILURE);
-  }
+  if ( !glfwInit() ) { exit(EXIT_FAILURE); }
+  glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
   // make window
   GLFWwindow* window = glfwCreateWindow(
       640, 480, "Simple example",

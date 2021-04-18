@@ -51,13 +51,15 @@ int main()
   }
   delfem2::glfw::CViewer2 viewer;
   {
-    viewer.view_height = 1.0;
+    viewer.view_height = 0.75;
     viewer.trans[0] = -0.5;
     viewer.trans[1] = -0.5;
     viewer.title = "task3";
   }
   glfwSetErrorCallback(error_callback);
   if ( !glfwInit() ) { exit(EXIT_FAILURE); }
+  glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
   // ------
   viewer.InitGL();
 

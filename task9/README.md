@@ -3,7 +3,7 @@
 ![under construction](../doc/mole.png)
 
 ----
-# Task11: Shape Matching Deformation
+# Task9: Shape Matching Deformation
 
 ## Setting Up
 
