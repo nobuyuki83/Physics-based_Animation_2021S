@@ -52,9 +52,9 @@ $ cd pba-<username>     # go to the local repository
 Please updat the local repository on your computer
 
 ```bash
-$ git checkout master   # set master branch as the current branch
-$ git fetch origin master    # download the master branch from remote repository
-$ git reset --hard origin/master  # reset the local master branch same as remote repository
+$ git checkout main   # set main branch as the current branch
+$ git fetch origin main    # download the main branch from remote repository
+$ git reset --hard origin/main  # reset the local main branch same as remote repository
 ```
 
 
@@ -75,7 +75,7 @@ To do this assignement, you need to be in the branch `task0`.  You can always ch
 $ git branch -a   # list all branches, showing the current branch 
 ```
 
-You are probably in the `master` branch. Let's create the `task0` branch and set it as the current branch.
+You are probably in the `main` branch. Let's create the `task0` branch and set it as the current branch.
 
 ```bash
 $ git branch task0   # create task0 branch
@@ -109,7 +109,7 @@ git status  # check the changes
 git add .   # stage the changes
 git status  # check the staged changes
 git commit -m "task0 finished"   # the comment can be anything
-git push --set-upstream origin task0  # up date the task0 branch of the remote repository  
+git push --set-upstream origin task0  # up date the task0 branch of the remote repository
 ```
 
 got to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If everything looks good on this page, make a pull request. 
@@ -125,7 +125,7 @@ got to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If eve
 
 ## Trouble Shooting
 
-- I mistakenly submit the assignement in the `master` branch
+- I mistakenly submit the assignement in the `main` branch
   - Make a branch `task0` and submit again
 
 

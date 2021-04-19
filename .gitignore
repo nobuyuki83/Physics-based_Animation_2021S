@@ -37,3 +37,5 @@ cmake-build-debug
 
 build
 */build
+
+3rd_party/GLFW_Lib

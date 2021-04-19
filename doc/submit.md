@@ -50,9 +50,9 @@ $ git clone https://github.com/PBA-2021S/pba-<username>.git
 
 ```bash
 $ cd pba-<username>   # go to the local repository
-$ git checkout master   # set master branch as the current branch
-$ git fetch origin master   # download the master branch from remote repository
-$ git reset --hard origin/master   # reset the local master branch same as remote repository
+$ git checkout main   # set main branch as the current branch
+$ git fetch origin main   # download the main branch from remote repository
+$ git reset --hard origin/main   # reset the local main branch same as remote repository
 ```
 
 
@@ -110,6 +110,6 @@ got to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If eve
 
 ## Trouble Shooting
 
-I mistakenly submit the assignement in the `master` branch
+I mistakenly submit the assignement in the `main` branch
 
 - Make a branch `task<number>` and submit again
