@@ -42,7 +42,7 @@ Topics:
 | Day | Topic | Assignment | Scribble | Slide |
 |:----|:---|:---|:---|-----|
 | (1)<br> Apr. 5 | **Introduction**<br>data structure for simulation<br>Implicit surface |  | | [[1]](http://www.nobuyuki-umetani.com/scribble/introduction.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) |
-| (2)<br> Apr. 19 | **Time Integration**<br> Newtonian-mechanics<br> backward & forward Euler method,<br> particle system | [task0](task0)<br>deadline Apr.22th(Thu) at15:00pm |  | [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/time_integration.pdf), [[4]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf) |
+| (2)<br> Apr. 19 | **Time Integration**<br> Newtonian-mechanics<br> backward & forward Euler method,<br> particle system | [task0](task0)<br>deadline: Apr.22th|  | [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/time_integration.pdf), [[4]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf) |
 | (3)<br> Apr. 26 | **Collision Detection**<br> bounding volume hierarchy,<br> Kd-tree, N-tree | [task1](task1) | | [[5]](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf) |
 | (4)<br> Mar. 10 | **Simple Deformation Energy**<br> mass-spring system,<br> Eulear-Lagrange equation,<br> Lagrangian mechanics | [task3](task3)<br> [task4](task4) | | [[6]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf) |
 | (5)<br> Mar. 17 | **Numerical Optimization**<br> Newton-Raphson method,<br> Levenberg–Marquardt method | [task2](task2) | |  |
