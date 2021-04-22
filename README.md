@@ -43,7 +43,7 @@ Topics:
 |:----|:---|:---|:---|-----|
 | (1)<br> Apr. 5 | **Introduction**<br> |  | | [[1]](http://www.nobuyuki-umetani.com/scribble/introduction.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) |
 | (2)<br> Apr. 19 | **Data Structure**<br>data structure for simulation<br/>Implicit surface | [task0](task0)<br>deadline: Apr.22th|  | [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) |
-| (3)<br> Apr. 26 | **Time Integration**<br/> Newtonian-mechanics<br/> backward & forward Euler method,<br/> particle system | [task1](task1) | | [[3]](http://www.nobuyuki-umetani.com/scribble/time_integration.pdf) |
+| (3)<br> Apr. 26 | **Time Integration**<br/> Newtonian-mechanics<br/> backward & forward Euler method,<br/> particle system | [task1](task1) | | [[14]](http://www.nobuyuki-umetani.com/scribble/newtonian_mechanics.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/time_integration.pdf) |
 | (4)<br> Mar. 10 | **Collision Detection**<br/> bounding volume hierarchy,<br/> Kd-tree, N-tree | [task3](task3) | | [[5]](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf) |
 | (5)<br> Mar. 17 | **Simple Deformation Energy**<br/>mass-spring system,<br/>Lagrangian mechanics <br>Sparse matrix data structure | [task4](task4) | | [[6]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf) |
 | (6)<br> Mar. 24 | **Numerical Optimization**<br/> Newton-Raphson method,<br/> Levenberg–Marquardt method<br>**Solving Large Linear System**<br> conjugate gradient method | [task2](task2), [task5](task5) | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) | [[8]](http://www.nobuyuki-umetani.com/scribble/matrix_solver.pdf) |
@@ -111,7 +111,9 @@ There are many small programming assignments. To do the assignments, you need to
 - [[10] rigid_body_dynamics](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf)
 - [[11] collision_detectoin_narrow](http://www.nobuyuki-umetani.com/scribble/collision_detection_narrow.pdf)
 - [[12] tensor](http://www.nobuyuki-umetani.com/scribble/tensor.pdf)
-- [[13]cpp language](http://www.nobuyuki-umetani.com/scribble/cpp.pdf)
+- [[13] cpp language](http://www.nobuyuki-umetani.com/scribble/cpp.pdf)
+- [[14] newtonian mechanics](http://www.nobuyuki-umetani.com/scribble/newtonian_mechanics.pdf)
+- [[15] git+github](http://www.nobuyuki-umetani.com/scribble/git.pdf)
 
 
 
