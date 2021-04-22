@@ -39,3 +39,8 @@ build
 */build
 
 3rd_party/GLFW_Lib
+
+.vs
+CMakeFiles
+
+.DS_Store

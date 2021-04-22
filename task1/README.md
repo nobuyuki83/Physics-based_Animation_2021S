@@ -8,6 +8,7 @@
 
 ![task1_preview](../doc/task1_preview.png)
 
+
 ## Setting Up
 
 Pleae look at the following document for environment setup, creating branch, and making pull request.
@@ -22,7 +23,6 @@ $ git submodule update --init 3rd_party/delfem2
 ```
 
 (DelFEM2 is a collection of useful C++ codes written by the instructer.)
-
 
 
 ## Problem1
