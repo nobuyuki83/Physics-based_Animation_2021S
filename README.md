@@ -43,9 +43,9 @@ Topics:
 |:----|:---|:---|:---|-----|
 | (1)<br> Apr. 5 | **Introduction**<br> |  | | [[1]](http://www.nobuyuki-umetani.com/scribble/introduction.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) |
 | (2)<br> Apr. 19 | **Data Structure**<br>data structure for simulation<br/>Implicit surface | [task0](task0)<br>deadline: Apr.22th|  | [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) |
-| (3)<br> Apr. 26 | **Time Integration**<br/> Newtonian-mechanics<br/> backward & forward Euler method,<br/> particle system | [task1](task1) | | [[14]](http://www.nobuyuki-umetani.com/scribble/newtonian_mechanics.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/time_integration.pdf) |
+| (3)<br> Apr. 26 | **Time Integration**<br/> Newtonian-mechanics<br/> backward & forward Euler method,<br/> particle system | [task1](task1)<br />deadline: Apr. 29th | | [[14]](http://www.nobuyuki-umetani.com/scribble/newtonian_mechanics.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/time_integration.pdf) |
 | (4)<br> Mar. 10 | **Collision Detection**<br/> bounding volume hierarchy,<br/> Kd-tree, N-tree | [task3](task3) | | [[5]](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf) |
-| (5)<br> Mar. 17 | **Simple Deformation Energy**<br/>mass-spring system,<br/>Lagrangian mechanics <br>Sparse matrix data structure | [task4](task4) | | [[6]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf) |
+| (5)<br> Mar. 17 | **Simple Deformation Energy**<br/>mass-spring system,<br/>Lagrangian mechanics <br>Sparse matrix data structure | [task4](task4) | | [[6]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf), [[17]](http://www.nobuyuki-umetani.com/scribble/lagrangian_mechanics.pdf) |
 | (6)<br> Mar. 24 | **Numerical Optimization**<br/> Newton-Raphson method,<br/> Levenberg–Marquardt method<br>**Solving Large Linear System**<br> conjugate gradient method | [task2](task2), [task5](task5) | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) | [[8]](http://www.nobuyuki-umetani.com/scribble/matrix_solver.pdf) |
 | (7)<br> Mar. 31 | **Optimization with Constraint**<br> Lagrange multiplier method | [task6](task6) | | [[9]](http://www.nobuyuki-umetani.com/scribble/optimization_with_constraints.pdf) |
 | (8)<br> Jun. 7  | **Rigid Body Dynamics**<br>inertia tensor, <br>angular velocity | [task7](task7) | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) | [[10]](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf) |
@@ -114,6 +114,8 @@ There are many small programming assignments. To do the assignments, you need to
 - [[13] cpp language](http://www.nobuyuki-umetani.com/scribble/cpp.pdf)
 - [[14] newtonian mechanics](http://www.nobuyuki-umetani.com/scribble/newtonian_mechanics.pdf)
 - [[15] git+github](http://www.nobuyuki-umetani.com/scribble/git.pdf)
+- [[16] variational_integration](http://www.nobuyuki-umetani.com/scribble/variational_integration.pdf)
+- [[17]lagrangian_mechanics](http://www.nobuyuki-umetani.com/scribble/lagrangian_mechanics.pdf)
 
 
 

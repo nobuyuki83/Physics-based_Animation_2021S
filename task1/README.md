@@ -6,7 +6,7 @@
 
 # Task1: Particle System
 
-![task1_preview](../doc/task1_preview.png)
+![task1_preview](task1_preview.png)
 
 
 ## Setting Up
@@ -27,24 +27,14 @@ $ git submodule update --init 3rd_party/delfem2
 
 ## Problem1
 
-Build the code for 2D particle system and take a screenshot (looks like image at the top). 
-Paste the screen shot image below
+Build the code using cmake, run the program, and take a screenshot (looks like image at the top). Then, paste the screen shot image below
 
 === Paste the screen shot here`![](<image file name>)` ===
 
 
-
 ## Problem 2
 
-Modify `main.cpp` to add gravity to the 2D particle system.  Take screen shot. 
-
-=== Paste the screen shot here`![](<image file name>)`  ===
-
-
-
-## Problem 3
-
-Modify `main.cpp` to collide points with the circular obstacle in the middle.
+Modify `main.cpp` to collide points with the circular obstacle in the middle. We assume that the **coefficient of restitution** is 1. 
 
 === Paste the screen shot here`![](<image file name>)`  ===
 

@@ -32,19 +32,18 @@ void draw(
   ::glVertex2f(0.f, 1.f);
   ::glEnd();
 
-  // draw circle
-  ::glBegin(GL_LINE_LOOP);
-  ::glColor3f(0.f, 0.f, 0.f);
-  {
-    const int ndiv = 64;
+  { // draw obstacle circle (center=(0.5,0.5) radius=0.2 )
+    ::glBegin(GL_LINE_LOOP);
+    ::glColor3f(0.f, 0.f, 0.f);
+    const unsigned int ndiv = 64;
     const float dr = 2.f*M_PI/ndiv;
-    for(int idiv=0;idiv<ndiv;++idiv){
+    for(unsigned int idiv=0;idiv<ndiv;++idiv){
       ::glVertex2f(
-          0.5+0.2*cos(dr*idiv),
-          0.5+0.2*sin(dr*idiv) );
+          0.5+0.2*cos(dr*float(idiv)),
+          0.5+0.2*sin(dr*float(idiv)) );
     }
+    ::glEnd();
   }
-  ::glEnd();
 
   // draw points
   ::glPointSize(10);
@@ -60,9 +59,12 @@ void simulate(
     std::vector<CParticle>& aParticle,
     float dt)
 {
-  for(auto & p : aParticle) {
+  for(auto & p : aParticle) { // loop for all the particles
+    // update positions
     p.pos[0] += dt*p.velo[0];
     p.pos[1] += dt*p.velo[1];
+    // ------------------------
+    // solve collisions below
     if( p.pos[0] < 0 ){ // left wall
       p.pos[0] = -p.pos[0];
       p.velo[0] = -p.velo[0];
@@ -78,6 +80,21 @@ void simulate(
     if( p.pos[1] > 1 ){ // top wall
       p.pos[1] = 2-p.pos[1];
       p.velo[1] = -p.velo[1];
+    }
+    { // solve collision between obstacle circle
+      float dx = p.pos[0]-0.5f; // x-coord from center
+      float dy = p.pos[1]-0.5f; // y-coord from center
+      float dist_from_center = sqrt(dx*dx+dy*dy);
+      if( dist_from_center < 0.2 ){ // collision with obstacle
+        float norm[2] = {dx/dist_from_center, dy/dist_from_center }; // unit normal vector of the circle
+        float vnorm = p.velo[0]*norm[0] + p.velo[1]*norm[1]; // normal component of the velocity
+        ////////////////////////////
+        // write something below !
+//        p.velo[0] =
+//        p.velo[1] =
+//        p.pos[0] =
+//        p.pos[1] =
+      }
     }
   }
 }
