@@ -59,7 +59,7 @@ $ git reset --hard origin/main   # reset the local main branch same as remote re
 
 ## Setup Library
 
-You need to install GLFW Library.
+You need to install GLFW Library. 
 
 - [How to Set Up GLFW Library](../doc/setup_glfw.md)
 
@@ -91,9 +91,10 @@ After you finish editing, you submit the updates pushing to the `task<number>` b
 
 ```bash
 cd pba-<username>    # go to the top of the repository
-git status  # check the changes
+git branch -a  #  make sure again you are in the task1 branch
+git status  # check the changes (typically few files are shown to be "updated")
 git add .   # stage the changes
-git status  # check the staged changes
+git status  # check the staged changes (typically few files re shown to be "staged")
 git commit -m "task1 finished"   # the comment can be anything
 git push --set-upstream origin task1  # update the task1 branch of the remote repository
 ```
@@ -110,6 +111,7 @@ got to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If eve
 
 ## Trouble Shooting
 
-I mistakenly submit the assignement in the `main` branch
-
-- Make a branch `task<number>` and submit again
+- I mistakenly submit the assignement in the `main` branch
+  - Make a branch `task<number>` and submit again
+- Many library files are shown when I type `git status` 
+  - add `pba-<username>/.gitignore` the directory/files need to be ignored
