@@ -2,7 +2,7 @@
 
 **deadline: April 29th (Thu) at 15:00pm**
 
-![task1_preview](../doc/task1_preview.png)
+![task1_preview](task1_preview.png)
 
 
 ## Setting Up
@@ -31,10 +31,8 @@ $ git submodule update --init 3rd_party/delfem2
 
 1. Build the code using cmake 
 2. Run the code
-
-2. Take a screenshot image (looks like image at the top)
-
-3. Paste the screenshot image below
+3. Take a screenshot image (looks like image at the top)
+4. Paste the screenshot image below
 
    
 
