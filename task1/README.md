@@ -13,7 +13,7 @@ Pleae look at the following document for environment setup, creating branch, and
 
 - make sure you synchronized the `main ` branch of your local repository  to that of remote repository.
 - make sure you created branc h `task1` from `main` branch. 
-- make sure you are currently in the `taask1` branch (use `git branch -a` command).
+- make sure you are currently in the `task1` branch (use `git branch -a` command).
   
 
 Additionally, you need the library [DelFEM2](https://github.com/nobuyuki83/delfem2) in `pba-<username>/3rd_party` 
