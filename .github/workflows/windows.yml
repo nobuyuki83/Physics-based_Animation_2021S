@@ -1,0 +1,36 @@
+name: BuildTasks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main, task0, task1, task2, task3, task4, task5, task6, task7, task10, task11, task12 ]
+
+env:
+  BUILD_TYPE: Debug
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: get_glfw
+      run: |
+        git submodule update --init -- 3rd_party/glfw
+
+        cd 3rd_party/glfw
+        cmake . -A x64
+        cmake --build . --config Release
+        mkdir ../GLFW_Lib
+        cmake --install . --prefix ../GLFW_Lib
+
+    - name: get_delfem2
+      run: |
+        git submodule update --init -- 3rd_party/delfem2
+
+    - name: build
+      run: |
+        cmake . -A x64
+        cmake --build .

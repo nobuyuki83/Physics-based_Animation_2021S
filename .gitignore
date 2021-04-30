@@ -41,6 +41,8 @@ build
 3rd_party/GLFW_Lib
 
 .vs
+.vscode
+
 CMakeFiles
 
 .DS_Store
