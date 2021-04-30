@@ -5,6 +5,10 @@
 #include <cstdio>
 #include <random>
 
+#ifndef M_PI
+  #define M_PI 3.14159265358979323846
+#endif
+
 // print out error
 static void error_callback(int error, const char* description){
   fputs(description, stderr);
@@ -79,8 +83,8 @@ void simulate(
 int main()
 {
   const unsigned int N = 40; // number of points
-  const float rad = 0.03;
-  const float dt = 0.01;
+  const float rad = 0.03f;
+  const float dt = 0.01f;
   std::vector<CParticle> aParticle;
   { // initialize particle
     std::mt19937 rndeng(std::random_device{}());

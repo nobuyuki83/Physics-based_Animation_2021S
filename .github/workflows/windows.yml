@@ -29,6 +29,7 @@ jobs:
     - name: get_delfem2
       run: |
         git submodule update --init -- 3rd_party/delfem2
+        
 
     - name: build
       run: |
