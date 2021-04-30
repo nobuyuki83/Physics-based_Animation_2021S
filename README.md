@@ -1,6 +1,9 @@
 # Physics-based Animation (物理ベースアニメーション)
 
-[![BuildTasks](https://github.com/PBA-2021S/pba/actions/workflows/buildtasks.yml/badge.svg)](https://github.com/PBA-2021S/pba/actions/workflows/buildtasks.yml)
+
+| Linux | Windows |
+| --- | --- |
+| [![BuildTasks](https://github.com/PBA-2021S/pba/actions/workflows/windows.yml/badge.svg)](https://github.com/PBA-2021S/pba/actions/workflows/windows.yml) | [![BuildTasks](https://github.com/PBA-2021S/pba/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/PBA-2021S/pba/actions/workflows/ubuntu.yml) |
 
 
 ![under construction](doc/rep_image.png)

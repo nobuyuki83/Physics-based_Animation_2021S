@@ -6,6 +6,10 @@
 #include <cstdlib>
 #include <cstdio>
 
+#ifndef M_PI
+  #define M_PI 3.14159265358979323846
+#endif
+
 // print out error
 static void error_callback(int error, const char* description){
   fputs(description, stderr);
