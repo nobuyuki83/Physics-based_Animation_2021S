@@ -8,7 +8,7 @@ There are many small programming assignments. These assignements needs to be sub
 
 ![](../doc/githubclassroom.png)
 
-The assignment is submitted using "pullrequest" functionality of the GitHub. Using the system called "GitHub Classroom", students makes their own private repository that is a copy of "https://github.com/PBA-2021S/pba". If a student have a GitHub account named `<username>`, the name of the repository will be `pba-<username>`. The private repository if only visible from the student and the instructor. In the second class, It will be shown how to make your own class repository using GitHub classroom. 
+The assignment is submitted using "pullrequest" functionality of the GitHub. Using the system called "GitHub Classroom", each student makes his/her own private repository that is a copy of "https://github.com/PBA-2021S/pba". If a student has a GitHub account named `<username>`, the name of the repository will be `pba-<username>`. The private repository is only visible from the student and the instructor. In the second class, It will be shown how to make your own class repository using GitHub classroom. 
 
 
 
@@ -103,7 +103,7 @@ git push --set-upstream origin task1  # update the task1 branch of the remote re
 
 ## Make a Pull Request
 
-got to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If everything looks good on this page, make a pull request. 
+Go to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If everything looks good on this page, make a pull request. 
 
 ![](../doc/pullrequest.png)
 
@@ -115,3 +115,4 @@ got to the GitHub webpage `https://github.com/PBA-2021S/pba-<username>` . If eve
   - Make a branch `task<number>` and submit again
 - Many library files are shown when I type `git status` 
   - add `pba-<username>/.gitignore` the directory/files need to be ignored
+

@@ -47,7 +47,7 @@ Topics:
 | (1)<br> Apr. 5 | **Introduction**<br> |  | | [[1]](http://www.nobuyuki-umetani.com/scribble/introduction.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) |
 | (2)<br> Apr. 19 | **Data Structure**<br>data structure for simulation<br/>Implicit surface | [task0](task0)<br>deadline: Apr.22th|  | [[2]](http://www.nobuyuki-umetani.com/scribble/data_structure.pdf) |
 | (3)<br> Apr. 26 | **Time Integration**<br/> Newtonian-mechanics<br/> backward & forward Euler method,<br/> particle system | [task1](task1)<br />deadline: Apr. 29th | | [[14]](http://www.nobuyuki-umetani.com/scribble/newtonian_mechanics.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/time_integration.pdf) |
-| (4)<br> Mar. 10 | **Collision Detection**<br/> bounding volume hierarchy,<br/> Kd-tree, N-tree | [task3](task3) | | [[5]](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf) |
+| (4)<br> Mar. 10 | **Broad-phase Collision Detection**<br/>princepal component analysis<br>sort & sweep method <br/>bounding volume hierarchy | [task4](task4)<br>deadline: May. 13th | | [[18]](http://www.nobuyuki-umetani.com/scribble/pca.pdf) [[5]](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf) |
 | (5)<br> Mar. 17 | **Simple Deformation Energy**<br/>mass-spring system,<br/>Lagrangian mechanics <br>Sparse matrix data structure | [task4](task4) | | [[6]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf), [[17]](http://www.nobuyuki-umetani.com/scribble/lagrangian_mechanics.pdf) |
 | (6)<br> Mar. 24 | **Numerical Optimization**<br/> Newton-Raphson method,<br/> Levenberg–Marquardt method<br>**Solving Large Linear System**<br> conjugate gradient method | [task2](task2), [task5](task5) | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) | [[8]](http://www.nobuyuki-umetani.com/scribble/matrix_solver.pdf) |
 | (7)<br> Mar. 31 | **Optimization with Constraint**<br> Lagrange multiplier method | [task6](task6) | | [[9]](http://www.nobuyuki-umetani.com/scribble/optimization_with_constraints.pdf) |
@@ -91,7 +91,7 @@ There are many small programming assignments. To do the assignments, you need to
 - [task1](task1): Particle System
 - [task2](task2): Optimization
 - [task3](task3): Deformation Using Optimization
-- [task4](task4) : Bounding Volume Hierachy
+- [task4](task4) : Sort & Sweep Method
 - [task5](task5): Solving Large Linear System
 - [task6](task6): Optimization with Constraints
 - [task7](task7): Princepal Axes of 3D Shape
@@ -109,7 +109,7 @@ There are many small programming assignments. To do the assignments, you need to
 - [[4] grid_mesh_interpolation](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf)
 - [[5] collision_detection_broad](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf)
 - [[6] mass_spring_system](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf)
-- [[8] matrix_solver](http://www.nobuyuki-umetani.com/scribble/matrix_solver.pdf)
+- [[8]linear_system_solver](http://www.nobuyuki-umetani.com/scribble/linear_system_solver.pdf)
 - [[9] optimization with constraints](http://www.nobuyuki-umetani.com/scribble/optimization_with_constraints.pdf)
 - [[10] rigid_body_dynamics](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf)
 - [[11] collision_detectoin_narrow](http://www.nobuyuki-umetani.com/scribble/collision_detection_narrow.pdf)
@@ -119,6 +119,7 @@ There are many small programming assignments. To do the assignments, you need to
 - [[15] git+github](http://www.nobuyuki-umetani.com/scribble/git.pdf)
 - [[16] variational_integration](http://www.nobuyuki-umetani.com/scribble/variational_integration.pdf)
 - [[17]lagrangian_mechanics](http://www.nobuyuki-umetani.com/scribble/lagrangian_mechanics.pdf)
+- [[18]pca](http://www.nobuyuki-umetani.com/scribble/pca.pdf)
 
 
 

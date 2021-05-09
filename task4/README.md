@@ -1,12 +1,8 @@
-**this assignment is currently under development**
+# Task4: Sort & Sweep Collision Culling
 
-![under construction](../doc/mole.png)
+**Deadline: May 13th at 15:00pm**
 
-----
-
-# Task4: Bounding Volume Hierarchy
-
-![task4_preview](../doc/task4_preview.png)
+![task4_preview](task4_preview.png)
 
 ## Setting Up
 
@@ -27,28 +23,23 @@ $ git submodule update --init 3rd_party/delfem2
 
 ## Problem1
 
-Compile the `main.cpp` using the `CMakeLists.txt` and take a screen shot. Past the screenshot image below.
+Compile the `main.cpp` using the `cmake` on the `CMakeLists.txt` . Run the program and take a screenshot image of the window appeared. Paste the screenshot image below.
 
-=== paset screenshot here ===
+=== paste screenshot here ===
 
 
 
 ## Problem 2
 
-Write a **brute force** program to make the particle collide each other. 
+Using the **Sort & Sweep Method**, implement the fast collision detection between the circles. Make the color of the collided circles  red. This can be done by setting `true` the `is_collided` member variable of the `CCircle` class. Implementation should be just adding 5 -10 lines of code around line #135 of `main.cpp`.  Use the function `is_collide()` at line #102. Take a screenshot image and paste it below. 
 
-
-
-## Problem 3
-
-Using the **Boundary Volume Hierarcy (BVH)**, make the program faster.
+=== paste screenshot here ===
 
 
 
 
 
 ----
-
 
 
 
