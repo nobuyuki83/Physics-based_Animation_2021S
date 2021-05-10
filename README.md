@@ -87,11 +87,11 @@ There are many small programming assignments. To do the assignments, you need to
 
 ### Tasks
 
-- [task0](task0):  Make C++ Program with CMake
+- [task0](task0): Make C++ Program with CMake
 - [task1](task1): Particle System
 - [task2](task2): Optimization
 - [task3](task3): Deformation Using Optimization
-- [task4](task4) : Sort & Sweep Method
+- [task4](task4): Sort & Sweep Method
 - [task5](task5): Solving Large Linear System
 - [task6](task6): Optimization with Constraints
 - [task7](task7): Princepal Axes of 3D Shape

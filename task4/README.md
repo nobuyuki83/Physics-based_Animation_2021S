@@ -1,6 +1,6 @@
 # Task4: Sort & Sweep Collision Culling
 
-**Deadline: May 13th at 15:00pm**
+**Deadline: May 13th (Thu) at 15:00pm**
 
 ![task4_preview](task4_preview.png)
 
