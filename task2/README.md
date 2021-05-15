@@ -1,16 +1,12 @@
-**this assignment is currently under development**
-
-![under construction](../doc/mole.png)
-
-----
-
 # Task2: Optimization
 
-![task2_preview](../doc/task2_preview.png)
+**Deadline: May 20th (Thursday) at 15:00pm**
+
+![preview](preview.png)
 
 ## Setting Up
 
-Pleae look at the following document for environment setup, creating branch, and making pull request.
+Pleae take a look at the following document for environment setup, creating branch, and making a pull request.
 
 [How to Submit the Assignment](../doc/submit.md)
 
@@ -27,7 +23,7 @@ $ git submodule update --init 3rd_party/delfem2
 
 ## Problem1
 
-Run the program and take a screen shot.
+Compile the code in this folder using `cmake`, use the **out-of-source build** too keep this directory clean. Run the program and take a screenshot image of the resulting window. 
 
 === paset screenshot here ===
 
@@ -35,16 +31,9 @@ Run the program and take a screen shot.
 
 ## Problem 2
 
-Optimize the position of red point such that it will minimise the sum of the squared distance between blue points. For the optimization, use the Levenberg–Marquardt algorithm.
+Optimize the position of the blue point using the Newton-Raphson method such that it will **minimise the sum of the squared distance between black points**. Newton-Raphson method requires gradient and hessian of the energy with respect to the position. Fill the code around line #90 to **analytically** compute the graiend and hessian. Paste the screenshot image of the result below. 
 
-
-
-
-
-----
-
-
-
+=== paset screenshot here ===
 
 
 
