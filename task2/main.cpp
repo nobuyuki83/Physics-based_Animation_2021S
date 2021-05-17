@@ -114,7 +114,7 @@ void optimization_newton(
  * @param randeng random number generator
  */
 void optimization_random(
-    float *pos,
+    float pos[2],
     const std::vector<float>& aXY,
     std::normal_distribution<float>& dist,
     std::mt19937& randeng)
@@ -184,9 +184,19 @@ int main()
   // ------
   viewer.InitGL();
 
+  const double dt = 1.0/60.0; // frame-rate is fixed to 60FPS.
+  double time_last_update = 0.0;
   while (!glfwWindowShouldClose(viewer.window))
   {
-    std::cout << energy(pos_optrand,aXY) << " " << energy(pos_optnewton,aXY) << std::endl;
+    // control of the frame rate
+    const double time_now = glfwGetTime();
+    if(time_now - time_last_update < dt ){
+      glfwPollEvents();
+      continue;
+    }
+    time_last_update = time_now;
+    std::cout << "energy for stochastic optimization: " << energy(pos_optrand,aXY) << ",  ";
+    std::cout << "energy for newton optimization: " << energy(pos_optnewton,aXY) << std::endl;
     { // optimize
       std::normal_distribution<float> distN(0, 0.005);
       optimization_random(
