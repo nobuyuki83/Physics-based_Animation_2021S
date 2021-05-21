@@ -1,18 +1,20 @@
-**this assignment is currently under development**
-
-![under construction](../doc/mole.png)
-
-----
-
 # Task3: Mass-spring System
 
+**Deadline: June 3rd (Thursday) at 15:00pm**
 
+![preview](preview.png)
 
 ## Setting Up
 
 Please take a look at the following document for environment setup, creating branch, and making pull request.
 
 [How to Submit the Assignment](../doc/submit.md)
+
+In this assignment, it is necessary to install [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page) library. 
+Please follow the following document for setting up.    
+
+[How to set up the Eigen Library](../doc/setup_eigen.md)  
+
 
 Additionally, you need the library [DelFEM2](https://github.com/nobuyuki83/delfem2) in `pba-<username>/3rd_party` 
 
@@ -35,9 +37,9 @@ Run the program and take a screen shot.
 
 ## Problem 2
 
-Optimize the deformation energy by solving the minimization of the deformation energy one-by-one for each vertex. 
+The current program to comute hessian of the enegy is not complete. 
+Fill the code around line #56 to optimize the deformation energy by solving the minimization of the deformation energy. 
 
-----
 
 
 

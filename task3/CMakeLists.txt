@@ -16,17 +16,17 @@ project(task3)
 ################################
 
 # glfw
-SET(GLFW_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/GLFW_Lib)
-include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindGLFW.cmake)
+SET(GLFW_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/GLFW_Lib) # specify candidate for glfw location
+include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindGLFW.cmake) # call script to find glfw
 
 # opengl
 find_package(OpenGL REQUIRED)
 
 # eigen
-SET(EIGEN_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/Eigen_Lib)
-include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindEigen3.cmake)
-#find_package(Eigen3 REQUIRED)
-#message(STATUS "eigen3 locatoin: ${EIGEN3_INCLUDE_DIR}")
+SET(EIGEN_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/Eigen_Lib) # specify candidate for eigen location
+include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindEigen3.cmake) # call script to find eigen3
+#find_package(Eigen3 REQUIRED) # this works only for installation from package manager
+message(STATUS "eigen3 locatoin: ${EIGEN3_INCLUDE_DIR}")
 
 # delfem2
 add_definitions(-DDFM2_HEADER_ONLY=ON)
