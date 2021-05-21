@@ -4,11 +4,13 @@
 
 ----
 
-# Task3: Deformation Using Optimization
+# Task3: Mass-spring System
+
+
 
 ## Setting Up
 
-Pleae look at the following document for environment setup, creating branch, and making pull request.
+Please take a look at the following document for environment setup, creating branch, and making pull request.
 
 [How to Submit the Assignment](../doc/submit.md)
 
@@ -36,7 +38,6 @@ Run the program and take a screen shot.
 Optimize the deformation energy by solving the minimization of the deformation energy one-by-one for each vertex. 
 
 ----
-
 
 
 

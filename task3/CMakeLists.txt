@@ -22,8 +22,10 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindGLFW.cmake)
 # opengl
 find_package(OpenGL REQUIRED)
 
+# eigen
+find_package(Eigen3 REQUIRED)
+
 # delfem2
-# dfm2
 add_definitions(-DDFM2_HEADER_ONLY=ON)
 set(DELFEM2_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/delfem2/include")
 
@@ -33,6 +35,7 @@ include_directories(
   ${OPENGL_INCLUDE_DIR}
   ${GLFW_INCLUDE_DIR}
   ${DELFEM2_INCLUDE_DIR}
+  ${EIGEN3_INCLUDE_DIR}
 )
 
 add_executable(${PROJECT_NAME}
