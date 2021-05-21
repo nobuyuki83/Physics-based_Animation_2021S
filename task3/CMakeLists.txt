@@ -23,7 +23,10 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindGLFW.cmake)
 find_package(OpenGL REQUIRED)
 
 # eigen
-find_package(Eigen3 REQUIRED)
+SET(EIGEN_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/Eigen_Lib)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindEigen3.cmake)
+#find_package(Eigen3 REQUIRED)
+#message(STATUS "eigen3 locatoin: ${EIGEN3_INCLUDE_DIR}")
 
 # delfem2
 add_definitions(-DDFM2_HEADER_ONLY=ON)

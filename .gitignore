@@ -39,6 +39,9 @@ build
 */build
 
 3rd_party/GLFW_Lib
+3rd_party/Eigen_Lib
+eigen-*
+
 
 .vs
 .vscode

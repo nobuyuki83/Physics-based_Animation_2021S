@@ -4,3 +4,6 @@
 [submodule "3rd_party/delfem2"]
 	path = 3rd_party/delfem2
 	url = https://github.com/nobuyuki83/delfem2.git
+[submodule "3rd_party/eigen"]
+	path = 3rd_party/eigen
+	url = https://gitlab.com/libeigen/eigen.git
