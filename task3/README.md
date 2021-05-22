@@ -1,6 +1,6 @@
 # Task3: Mass-spring System
 
-**Deadline: June 3rd (Thursday) at 15:00pm**
+**Deadline: May 27th (Thursday) at 15:00pm**
 
 ![preview](preview.png)
 

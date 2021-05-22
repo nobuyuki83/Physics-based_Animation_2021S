@@ -19,7 +19,6 @@ jobs:
     - name: get_glfw
       run: |
         git submodule update --init -- 3rd_party/glfw
-
         cd 3rd_party/glfw
         cmake . -A x64
         cmake --build . --config Release
@@ -29,6 +28,15 @@ jobs:
     - name: get_delfem2
       run: |
         git submodule update --init -- 3rd_party/delfem2
+
+    - name: get_eigen
+      run: |
+        git submodule update --init 3rd_party/eigen
+        cd 3rd_party/eigen
+        mkdir build
+        cd build
+        cmake ..
+        cmake --install . --prefix ../../Eigen_Lib
         
 
     - name: build

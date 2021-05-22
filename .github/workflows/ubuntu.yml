@@ -23,6 +23,7 @@ jobs:
           xorg-dev libx11-dev \
           libglu1-mesa libglu1-mesa-dev \
           libgl1-mesa-glx libgl1-mesa-dev
+
         git submodule update --init -- 3rd_party/glfw
         cd 3rd_party/glfw
         cmake .
@@ -34,6 +35,10 @@ jobs:
     - name: get_delfem2
       run: |
         git submodule update --init -- 3rd_party/delfem2
+
+    - name: get_eigen
+      run: |
+        sugo apt-get install libeigen3-dev
 
     - name: build
       run: |
