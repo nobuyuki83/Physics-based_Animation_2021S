@@ -29,7 +29,10 @@ Monday 3rd period, 13:00pm - 14:30pm
 
 ## Course Description
 
-Computer-generated images are everywhere in movies, video games, and VR. This course is an introduction to the techniques to animate objects in computer graphics based on the law of physics. The aim of the course is to get familiar with applied mathematics such as linear algebra, vector analysis, partial differential equations, variational principle, optimization, and numerical analysis through the animation techniques for particle systems, rigid bodies, elastic bodies. There are C++ programming assignments to acquire research-oriented graphics programming skills. 
+Computer-generated images are everywhere in movies, video games, and VR. 
+This course is an introduction to the techniques to animate objects in computer graphics based on the law of physics. 
+The aim of the course is to get familiar with applied mathematics such as linear algebra, vector analysis, partial differential equations, variational principle, optimization, and numerical analysis through the animation techniques for particle systems, rigid bodies, elastic bodies. 
+There are C++ programming assignments to acquire research-oriented graphics programming skills. 
 
 Topics:
 - mass-spring simulation
@@ -77,20 +80,16 @@ There are many small programming assignments. To do the assignments, you need to
 ### Policy
 
 - Do the assignment by yourself. Don't share the assignments with others.
-
 - Don't post the answers of the assignment on Slack 
-
 - Late submission of an assignment is subject to grade deduction
-
 - Score each assignemnt will not be open soon (instructer needs to adjust weight of the score later)
-
 
 ### Tasks
 
 - [task0](task0): Make C++ Program with CMake
 - [task1](task1): Particle System
 - [task2](task2): Optimization
-- [task3](task3): Deformation Using Optimization
+- [task3](task3): Mass-spring system
 - [task4](task4): Sort & Sweep Method
 - [task5](task5): Solving Large Linear System
 - [task6](task6): Optimization with Constraints
@@ -109,7 +108,7 @@ There are many small programming assignments. To do the assignments, you need to
 - [[4] grid_mesh_interpolation](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf)
 - [[5] collision_detection_broad](http://www.nobuyuki-umetani.com/scribble/collision_detection_broad.pdf)
 - [[6] mass_spring_system](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf)
-- [[8]linear_system_solver](http://www.nobuyuki-umetani.com/scribble/linear_system_solver.pdf)
+- [[8] linear_system_solver](http://www.nobuyuki-umetani.com/scribble/linear_system_solver.pdf)
 - [[9] optimization with constraints](http://www.nobuyuki-umetani.com/scribble/optimization_with_constraints.pdf)
 - [[10] rigid_body_dynamics](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf)
 - [[11] collision_detectoin_narrow](http://www.nobuyuki-umetani.com/scribble/collision_detection_narrow.pdf)
@@ -118,9 +117,9 @@ There are many small programming assignments. To do the assignments, you need to
 - [[14] newtonian mechanics](http://www.nobuyuki-umetani.com/scribble/newtonian_mechanics.pdf)
 - [[15] git+github](http://www.nobuyuki-umetani.com/scribble/git.pdf)
 - [[16] variational_integration](http://www.nobuyuki-umetani.com/scribble/variational_integration.pdf)
-- [[17]lagrangian_mechanics](http://www.nobuyuki-umetani.com/scribble/lagrangian_mechanics.pdf)
-- [[18]pca](http://www.nobuyuki-umetani.com/scribble/pca.pdf)
-- [[19]optimization](http://www.nobuyuki-umetani.com/scribble/optimization.pdf)
+- [[17] lagrangian_mechanics](http://www.nobuyuki-umetani.com/scribble/lagrangian_mechanics.pdf)
+- [[18] pca](http://www.nobuyuki-umetani.com/scribble/pca.pdf)
+- [[19] optimization](http://www.nobuyuki-umetani.com/scribble/optimization.pdf)
 
 
 
@@ -128,11 +127,8 @@ There are many small programming assignments. To do the assignments, you need to
 ## Reading Material
 
 - [Physically Based Modeling: Principles and Practice, Siggraph '97 Course notes by Dr. Baraff](http://www.cs.cmu.edu/~baraff/sigcourse/index.html)
-
 - [Physics-Based Animation  by Kenny Erleben et al. (free textobook about rigid body dynamics)](https://iphys.wordpress.com/2020/01/12/free-textbook-physics-based-animation/)
-
 - [Dynamic Deformables: Implementation and Production PracticalitiesSIGGRAPH Courses, 2020](http://www.tkim.graphics/DYNAMIC_DEFORMABLES/)
-
 - [Awesome Computer Graphics (GitHub)](https://github.com/luisnts/awesome-computer-graphics)
 
   

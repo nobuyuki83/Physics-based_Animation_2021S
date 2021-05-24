@@ -23,7 +23,7 @@ double distance2(const T* p0, const T* p1)
 }
 
 /**
- *
+ * Elastic potential energy of a spring and its gradient & hessian
  * @param[out] W elastic energy of a 2D spring
  * @param[out] dW differentiation of energy w.r.t. positions
  * @param[out] ddW 2nd-order differentiation of energy w.r.t. positions
@@ -41,16 +41,16 @@ DFM2_INLINE void WdWddW_Spring2(
 {
   constexpr unsigned nnode = 2;
   constexpr unsigned ndim = 2;
-  const double len = distance2(ap[0],ap[1]);
-  const double u01[ndim] = {
+  const double len = distance2(ap[0],ap[1]); // distance between p0 and p1
+  const double u01[ndim] = { // unit direction vector from p0 to p1
       (ap[1][0] - ap[0][0]) / len,
       (ap[1][1] - ap[0][1]) / len };
-  const double C = (len-Len); // the length difference
+  const double C = (len-Len); // the length difference.
   const double dC[nnode][ndim]  = { // gradient of C
       {-u01[0], -u01[1]},
       {+u01[0], +u01[1]} };
   double ddC[nnode][nnode][ndim][ndim]; // hessian of C
-  std::fill_n(&ddC[0][0][0][0], nnode*nnode*ndim*ndim, 0.0);
+  std::fill_n(&ddC[0][0][0][0], nnode*nnode*ndim*ndim, 0.0); // currently ddC is zet to zero.
   for(unsigned int idim=0;idim<ndim;++idim){
     for(unsigned int jdim=0;jdim<ndim;++jdim) {
       // write some code below to compute the ddC.
@@ -63,10 +63,10 @@ DFM2_INLINE void WdWddW_Spring2(
     }
   }
   //
-  W = 0.5 * stiffness * C * C; // Hooke's law. energy is square of length
+  W = 0.5 * stiffness * C * C; // Hooke's law. energy is square of length difference W=1/2*k*C*C
   for(int ino=0; ino < nnode; ++ino){
     for(int idim=0;idim < ndim;++idim){
-      dW[ino][idim] = stiffness * dC[ino][idim] * C;
+      dW[ino][idim] = stiffness * dC[ino][idim] * C; // dW = k*dC*C
     }
   }
   for(int ino=0; ino < nnode; ++ino){
@@ -75,7 +75,7 @@ DFM2_INLINE void WdWddW_Spring2(
         for (int jdim = 0; jdim < ndim; ++jdim) {
           ddW[ino][jno][idim][jdim] =
               + stiffness * dC[ino][idim] * dC[jno][jdim]
-              + stiffness * C * ddC[ino][jno][idim][jdim];
+              + stiffness * C * ddC[ino][jno][idim][jdim]; // ddW = k*dC*dC + k*C*ddC
         }
       }
     }
@@ -84,14 +84,14 @@ DFM2_INLINE void WdWddW_Spring2(
 
 
 /**
- *
- * @param[in,out] aXY
- * @param[in] aXY0
- * @param[in] aLine
- * @param[in] stiffness
- * @param[in] mass_point
- * @param[in] gravity
- * @param[in] aBCFlag
+ * One Newton iteration to solve deformation by energy minimization.
+ * @param[in,out] aXY current position
+ * @param[in] aXY0 position in the rest state
+ * @param[in] aLine element index showing connectivity of points
+ * @param[in] stiffness stiffness of the spring
+ * @param[in] mass_point mass of point
+ * @param[in] gravity gravitational acceleration
+ * @param[in] aBCFlag array of flags showing which degree of freedom is free (0) or fixed(1)
  */
 void EnergyMinimization(
     std::vector<double>& aXY,
@@ -109,10 +109,10 @@ void EnergyMinimization(
   hessW.setZero();
   gradW.setZero();
   double W = 0.0;
-  for(int il=0;il<aLine.size()/2;++il){
-    unsigned int ip0 = aLine[il*2+0];
-    unsigned int ip1 = aLine[il*2+1];
-    const double Len = distance2(aXY0.data()+ip0*2, aXY0.data()+ip1*2);
+  for(int il=0;il<aLine.size()/2;++il){ // loop over springs
+    unsigned int ip0 = aLine[il*2+0]; // index of point0
+    unsigned int ip1 = aLine[il*2+1]; // index of point1
+    const double Len = distance2(aXY0.data()+ip0*2, aXY0.data()+ip1*2); // initial length
     const double ap[2][2] = {
         { aXY[ip0*2+0], aXY[ip0*2+1] },
         { aXY[ip1*2+0], aXY[ip1*2+1] } };
@@ -121,6 +121,13 @@ void EnergyMinimization(
         w,dw,ddw,
         ap,Len,stiffness);
     W += w;
+    // merge gradient
+    for(unsigned int ino=0;ino<2;++ino) {
+      unsigned int ip = aLine[il*2+ino];
+      gradW(ip*2+0) += dw[ino][0];
+      gradW(ip*2+1) += dw[ino][1];
+    }
+    // merge hessian
     for(unsigned int ino=0;ino<2;++ino) {
       for(unsigned int jno=0;jno<2;++jno) {
         unsigned int ip = aLine[il*2+ino];
@@ -131,19 +138,14 @@ void EnergyMinimization(
         hessW(ip * 2 + 1, jp * 2 + 1) += ddw[ino][jno][1][1];
       }
     }
-    for(unsigned int ino=0;ino<2;++ino) {
-      unsigned int ip = aLine[il*2+ino];
-      gradW(ip*2+0) += dw[ino][0];
-      gradW(ip*2+1) += dw[ino][1];
-    }
   }
-  // adding gravity
+  // adding gradient of gravitational potential energy (hessian is zero for gravity energy)
   for(unsigned int ip=0;ip<np;++ip) {
     gradW(ip*2+0) -= mass_point*gravity[0];
     gradW(ip*2+1) -= mass_point*gravity[1];
     W -= mass_point*gravity[0]*aXY[ip*2+0] + mass_point*gravity[1]*aXY[ip*2+1];
   }
-  std::cout << "hoge " << W << std::endl;
+  std::cout << "energy of the system " << W << std::endl;
   // adding boundary condition
   for(unsigned int i=0;i<nDof;++i){
     if( aBCFlag[i] == 0 ){ continue; } // if this DoF is free, skip
@@ -155,6 +157,7 @@ void EnergyMinimization(
   }
   Eigen::FullPivLU< Eigen::MatrixXd > lu(hessW); // LU decomposition
   Eigen::VectorXd update = lu.solve(gradW); // solve matrix
+  // update position
   for(unsigned int ip=0;ip<np;++ip){
     aXY[ip*2+0] -= update(ip*2+0);
     aXY[ip*2+1] -= update(ip*2+1);
@@ -185,7 +188,7 @@ void SettingUpSimulation(
   // setting up boundry condition (fixing the both ends of the rectangle)
   aBCFlag.resize(aXY.size(),0);
   for(unsigned int ip=0;ip<aXY.size()/2;++ip){
-    if( aXY[ip*2+0] < -0.99 || aXY[ip*2+0] > +0.99 ){
+    if( aXY[ip*2+0] < -0.99 || aXY[ip*2+0] > +0.99 ){ // fix the both ends of rectangle
       aBCFlag[ip*2+0] = 1;
       aBCFlag[ip*2+1] = 1;
     }

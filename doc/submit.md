@@ -57,11 +57,22 @@ $ git reset --hard origin/main   # reset the local main branch same as remote re
 
 
 
-## Setup Library
+## Setup Libraries
 
-You need to install GLFW Library. 
+For all the assignement, we use GLFW Library for OpenGL visualization. Please take a look at the following document
 
 - [How to Set Up GLFW Library](../doc/setup_glfw.md)
+
+Some assignement use [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page) library for matrix operation. Please follow the following document for setting up.    
+
+- [How to set up the Eigen Library](../doc/setup_eigen.md)  
+
+Additionally, for some assignements, [DelFEM2](https://github.com/nobuyuki83/delfem2) needs to be installed in `pba-<username>/3rd_party` . DelFEM2 is a collection of useful C++ codes written by the instructer. Please install and updte this library with the following command.
+
+```bash
+$ cd pba-<username> # go to the top of local repository
+$ git submodule update --init 3rd_party/delfem2
+```
 
 
 

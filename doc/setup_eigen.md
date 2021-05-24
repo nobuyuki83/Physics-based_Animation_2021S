@@ -14,7 +14,7 @@ Below, we discuss these options in detail
 
 ## Install using a Package Manager
 
-for Mac, install `eigen` using package manager `brew` as
+for Mac, install `eigen` using the package manager `brew` as
 
 ```bash
 $ brew install eigen
@@ -62,12 +62,12 @@ pba-<username>/3rd_party/Eigen_Lib/include/eigen3/Eigen/Dense
 Basically it is similar to the "Download & Configure" approach. The only difference is that instead of download we use submodule to clone the `Eigen` repository. 
 
 ```bash
-$ git submodule update --init 3rd_party/eigen # clone the "eigen" repository
+$ git submodule update --init 3rd_party/eigen # clone the "eigen" repository (this may take one or two mins)
 $ cd 3rd_party/eigen # move to the eigen repository
 $ mkdir build # make a directory for "out-of-source build"
 $ cd build    # move to the new directory
-$ cmake ..    # configure (this may take one or two minutes)
-$ cmake --install . --prefix ../../Eigen_Lib # install into the "Eigen_Lib" folder
+$ cmake ..    # configure (this may take one or two mins)
+$ cmake --install . --prefix ../../Eigen_Lib # install eigen into the "Eigen_Lib" folder
 ```
 
 Make sure you have a header file `Dense` at
