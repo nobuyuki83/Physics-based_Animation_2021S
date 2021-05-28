@@ -32,12 +32,12 @@ jobs:
     - name: get_eigen
       run: |
         git submodule update --init 3rd_party/eigen
-        cd 3rd_party/eigen
-        mkdir build
-        cd build
-        cmake ..
-        cmake --install . --prefix ../../Eigen_Lib
-        
+#        the following costs a lot of $ on GitHub Actions
+#        cd 3rd_party/eigen
+#        mkdir build
+#        cd build
+#        cmake ..
+#        cmake --install . --prefix ../../Eigen_Lib
 
     - name: build
       run: |

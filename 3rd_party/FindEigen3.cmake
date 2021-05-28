@@ -83,9 +83,9 @@ else ()
         ENV EIGEN3_ROOT 
         ENV EIGEN3_ROOT_DIR
         PATHS
-        ${EIGEN_ROOT}/include
         ${CMAKE_INSTALL_PREFIX}/include
         ${KDE4_INCLUDE_DIR}
+        ${EIGEN3_ROOT}
         PATH_SUFFIXES eigen3 eigen
       )
   endif()
