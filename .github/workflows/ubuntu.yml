@@ -22,10 +22,10 @@ jobs:
         sudo apt-get install \
           xorg-dev libx11-dev \
           libglu1-mesa libglu1-mesa-dev \
-          libgl1-mesa-glx libgl1-mesa-dev \
+          libgl1-mesa-glx libgl1-mesa-dev
         sudo apt-get install libglfw3
         sudo apt-get install libglfw3-dev
-
+        
 #        removed to save the cost for the Github Action
 #        git submodule update --init -- 3rd_party/glfw
 #        cd 3rd_party/glfw
