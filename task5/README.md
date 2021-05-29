@@ -1,11 +1,9 @@
-**this assignment is currently under development**
+# Task5: Solving Large Linear System 
 
-![under construction](../doc/mole.png)
+- Gauss-Seidel Relaxation for unstructured mesh
+- **Deadline: June 3rd (Thursday) at 15:00, 2021**
 
-
-----
-
-# Task5: Solving Large Linear System
+![preview](preview.png)
 
 ## Setting Up
 
@@ -13,28 +11,45 @@ Pleae look at the following document for environment setup, creating branch, and
 
 [How to Submit the Assignment](../doc/submit.md)
 
-Additionally, you need the library [DelFEM2](https://github.com/nobuyuki83/delfem2) in `pba-<username>/3rd_party` 
+Additionally, you need the library [DelFEM2](https://github.com/nobuyuki83/delfem2) installed and updated in `pba-<username>/3rd_party` 
 
 ```bash
 $ cd pba-<username> # go to the top of local repository
 $ git submodule update --init 3rd_party/delfem2
 ```
 
-(DelFEM2 is a collection of useful C++ codes written by the instructer.)
+(DelFEM2 is a collection of useful C++ codes written by the instructer).
 
 
 
 ## Problem1
 
-Compile the `main.cpp` using the `CMakeLists.txt` and take a screen shot. Past the screenshot image below.
+Build the `main.cpp` using `cmake`. 
+Run the program and take a screenshot image of the window. 
+You will probably see some **highly distorted** mesh and that's OK. 
+Paste the screenshot image below by editing this mark down document:
 
 === paset screenshot here ===
 
 
-
 ## Problem 2
 
-Write a program to minimize the elastic energy of the mass spring system.
+Consider each edge of the mesh is a spring with zero rest length. 
+In other words the spring's elastic potential energy is `E_i=1/2l_i^2`,
+ where `l_i` is the distance between two end points of `i`-th spring. 
+Write a program to minimize the sum of elastic potential energy `E=∑E_i`.
+
+The optimization has to be done using the **Gauss-Seidel(GS) method**.
+The GS method updates the coordinate of the point one-by-one.
+Let us denote  `ip` is the point to be moved, and `jp` is the point surrounding `ip`.  
+For each updates of GS method, the coordinate of `ip` is optimized and coordinates for `jp` is fixed.
+Use the fact the sum of squared distance between `ip` and `jp` is minimized  when the `ip` is moved to the gravity center of `jp`.
+    
+Write some code around line #31 in the `main.cpp`. 
+Once the implementation is successful, the energy should steadly decrease.
+
+  
+
 
 
 

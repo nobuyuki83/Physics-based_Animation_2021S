@@ -24,13 +24,13 @@ jobs:
           libglu1-mesa libglu1-mesa-dev \
           libgl1-mesa-glx libgl1-mesa-dev
 
-        git submodule update --init -- 3rd_party/glfw
-        cd 3rd_party/glfw
-        cmake .
-        cmake --build .
-        cmake -E make_directory ../GLFW_Lib
-        cmake --install . --prefix ../GLFW_Lib
-
+#        removed to save the cost for the Github Action
+#        git submodule update --init -- 3rd_party/glfw
+#        cd 3rd_party/glfw
+#        cmake .
+#        cmake --build .
+#        cmake -E make_directory ../GLFW_Lib
+#        cmake --install . --prefix ../GLFW_Lib
 
     - name: get_delfem2
       run: |

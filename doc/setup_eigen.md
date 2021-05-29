@@ -3,8 +3,8 @@
 Namely, you can set up `Eigen` in three ways:
 
 - download `eigen` using a package manager (for Mac and Ubuntu)
-- download the repository and configure.
-- clone the repository and configure
+- download the repository (and configure if you want to optimize eigen)
+- clone the repository (and configure if you want to optimize eigen)
 
 Below, we discuss these options in detail
 
@@ -39,7 +39,8 @@ Download the repository from here
 1. Download the compressed file (e.g.,` eigen-3.*.*.zip`)  and extract it. This result in a directory `eigen-3.*.*`
 2. Put the extracted file under the `3rd_party` directory as `pba-<username>/3rd_party/eigen-3.*.*` .
 
-Then type the commands below
+Basically, you can stop here, but the `eigen` is not optimized for your environment.   
+To configure the `eigen` library, type the commands below
 
 ```bash
 cd pba-<username>/3rd_party/eigen-3.*.* # move to the directory
@@ -59,10 +60,16 @@ pba-<username>/3rd_party/Eigen_Lib/include/eigen3/Eigen/Dense
 
 ## Clone & Configure
 
-Basically it is similar to the "Download & Configure" approach. The only difference is that instead of download we use submodule to clone the `Eigen` repository. 
+Basically it is similar to the "Download & Configure" approach. 
+The only difference is that instead of download we use submodule to clone the `Eigen` repository. 
 
 ```bash
 $ git submodule update --init 3rd_party/eigen # clone the "eigen" repository (this may take one or two mins)
+```
+
+You can stop here, but the `eigen` is not optimized for your environment.
+To configure the `eigen` library, type the commands below
+```bash
 $ cd 3rd_party/eigen # move to the eigen repository
 $ mkdir build # make a directory for "out-of-source build"
 $ cd build    # move to the new directory
