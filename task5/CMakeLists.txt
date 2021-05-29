@@ -23,7 +23,6 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindGLFW.cmake)
 find_package(OpenGL REQUIRED)
 
 # delfem2
-# dfm2
 add_definitions(-DDFM2_HEADER_ONLY=ON)
 set(DELFEM2_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/delfem2/include")
 

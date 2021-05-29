@@ -8,11 +8,12 @@
 #include <cstdio>
 
 /**
- *
- * @param aXY
- * @param aPsupInd
- * @param aPsup
- * @param aBCFlag
+ * Optimize the position of the mesh to reduce the energy
+ * energy is defined as the sum of squared lengths of the edges of the mesh
+ * @param[in,out] aXY array of coordinates
+ * @param[in] aPsupInd array of index for jagged array
+ * @param[in] aPsup array of neighbouring index for jagged array
+ * @param[in] aBCFlag if BCFlag is not 0, that point needs to be fixed.
  */
 void GaussSeidelRelaxation(
     std::vector<double>& aXY,
@@ -23,30 +24,30 @@ void GaussSeidelRelaxation(
   const auto np = aXY.size() / 2;
   for (auto ip = 0; ip < np; ++ip) { // loop over all the point
     if( aBCFlag[ip] != 0 ){ continue; }
-    const unsigned int nneighbour = aPsupInd[ip + 1] - aPsupInd[ip]; // number of neighbouring points
+    const unsigned int nneighbour = aPsupInd[ip + 1] - aPsupInd[ip]; // number of points neighbouring ip
     if( nneighbour == 0 ){ continue; }
-    double pos_new[2] = {0., 0.}; // new coordinate
+    double pos_new[2] = {0., 0.}; // new coordinate. Put it at the center of gravity of the neighbouring points
     for (auto ipsup = aPsupInd[ip]; ipsup < aPsupInd[ip + 1]; ++ipsup) {
       const unsigned int jp = aPsup[ipsup]; // index of point neighbouring ip
       // write something here
       // write something here
     }
     // write something here
-    // un-comment out below
+    // un-comment below
     // aXY[ip*2+0] = pos_new[0]; // update the x-coordinate of ip
     // aXY[ip*2+1] = pos_new[1]; // update the y-coordinate of ip
   }
 }
 
 /**
- *
- * @param aXY
- * @param aPsupInd
- * @param aPsup
- * @return
+ * Compute the energy that is defined as the sum of squared lengths of the edges of the mesh
+ * @param[in] aXY array of coordinates
+ * @param[in] aPsupInd array of index for jagged array
+ * @param[in] aPsup array of neighbouring index for jagged array
+ * @return energy
  */
 double Energy(
-    std::vector<double>& aXY,
+    const std::vector<double>& aXY,
     const std::vector<unsigned int>& aPsupInd,
     const std::vector<unsigned int>& aPsup)
 {
@@ -105,7 +106,7 @@ static void error_callback(int error, const char* description){
   fputs(description, stderr);
 }
 
-void DrawMeshLine2(
+void DrawMesh2_Psup(
     const std::vector<double> &aXY,
     const std::vector<unsigned int>& aPsupInd,
     const std::vector<unsigned int>& aPsup)
@@ -170,7 +171,7 @@ int main()
     //----
     viewer.DrawBegin_oldGL();
     glColor3f(0.f, 0.f, 0.f);
-    DrawMeshLine2(aXY, aPsupInd, aPsup);
+    DrawMesh2_Psup(aXY, aPsupInd, aPsup);
     viewer.SwapBuffers();
     glfwPollEvents();
   }
