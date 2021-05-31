@@ -37,7 +37,7 @@ Consider each edge of the mesh is a spring with zero rest length. In other words
 
 The optimization has to be done using the **Gauss-Seidel(GS) method**. The GS method updates the coordinate of the point one-by-one. Let us denote  `ip` is the point to be moved, and `jp` is the point surrounding `ip`.  For each updates of GS method, the coordinate of `ip` is optimized and coordinates for `jp` is fixed. Use the fact the sum of squared distance between `ip` and `jp` is minimized  when the `ip` is moved to the **gravity center** of `jp`.
 
-The `jp` that is one-ring neighbourhood of `ip` is stored inside `Psup_Ind` and `Psup` in the format of **jagged array**. See the slides below for the detail of the format. 
+The one-ring neighbourhood of vertices are stored inside `Psup_Ind` and `Psup` in the format of **jagged array**. See the slides below for the detail of the format. 
 
 ![jagged_array](jagged_array0.png)
 
