@@ -39,7 +39,7 @@ You will probably see a **highly distorted polygon shrinking **, but that's OK.
 
 ## Problem 2
 
-Optimize the positions of the vertices of a 2D polygon such that its **area becomes one and the sum of the squred length of the edges (i.e., energy) is minimized**. The Lagrange multiplier method needs to be used. See the slide below for the Lagrange multiplier. 
+Optimize the positions of the vertices of a 2D polygon such that its **area becomes one and the sum of the squred length of the edges (i.e., energy) is minimized**. The Lagrange multiplier method needs to be used. See the slide below for the overview of Lagrange multiplier method and its implementation. 
 
 ![](lagrange0.png)
 
@@ -47,11 +47,11 @@ Optimize the positions of the vertices of a 2D polygon such that its **area beco
 
 
 
-In the visualization, the black points and line represent the polygon, the red lines represents the constaint gradient w.r.t vertex position, the blue lines represents the energy gradient w.r.t. vertex position. 
+In the visualization, the black points and line represent the polygon, the red lines represents the constaint gradient w.r.t vertex position, the blue lines represents the energy gradient w.r.t. vertex position. **Observe that two gradients are parallel at the optimized configuration**.
 
-There are already working codes for energy minimization (that's why polygon is shrinking), but the codes for areal constraint is not there yet. Write some codes around line #105 to add constraint with Lagrange multiplier metod. 
+**There are already working codes for energy minimization** (that's why polygon is shrinking), but the codes for areal constraint is not there yet. Write some codes around line #105 to add constraint with Lagrange multiplier metod. 
 
-If the code working well, you will see the enrgy is steadly decease to the convergence and the area converged to exactly one. Paste the screenshot image below by editing this mark down document.
+If the code working well, you will see that **the enrgy steadly deceases to the convergence** and **the area converges to one**. Paste the screenshot image below by editing this mark down document.
 
 === paste screenshot here ===
 

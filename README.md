@@ -54,7 +54,7 @@ Topics:
 | (5)<br> May. 17 | **Numerical Optimization**<br/>Hessian & Jacobian,<br>Newton-Raphson method | [task2](task2)<br>deadline: May 20th | | [[19]](http://www.nobuyuki-umetani.com/scribble/optimization.pdf) |
 | (6)<br> May. 24 | **Simple Deformation Energy**<br/>mass-spring system | [task3](task3)<br>deadline: May 27th | [[1]](http://www.nobuyuki-umetani.com/scribble/linsol_cg.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/linsol_cgprecond.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/linsol_ludecomp.pdf) | [[6]](http://www.nobuyuki-umetani.com/scribble/mass_spring_system.pdf) |
 | (7)<br> May. 31 | **Solving Large Linear System**<br/>Sparse matrix data structure<br/>Conjugate gradient method | [task5](task5)<br>deadline: June 3rd | | [[8]](http://www.nobuyuki-umetani.com/scribble/linear_system_solver.pdf),[[20]](http://www.nobuyuki-umetani.com/scribble/matrix_data_structure.pdf) |
-| (8)<br> Jun. 7  | **Optimization with Constraint**<br/>Lagrange multiplier method<br>**Rigid Body Dynamics**<br>Rotation representation | [task6](task6)<br>deadline: June 10th | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) | [[10]](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf) |
+| (8)<br> Jun. 7  | **Optimization with Constraint**<br/>Lagrange multiplier method<br>**Rigid Body Dynamics**<br>Rotation representation | [task6](task6)<br>deadline: June 10th | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_rotation.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/mech_rigidbody.pdf) | [[9]](http://www.nobuyuki-umetani.com/scribble/optimization_with_constraints.pdf),[[21]](http://www.nobuyuki-umetani.com/scribble/rotation.pdf) |
 | (9)<br> Jun. 14 | **Rigid Body Dynamics2**<br/>inertia tensor, <br/>angular velocity<br>impulse based method | ~~task8~~ | | [[11]](http://www.nobuyuki-umetani.com/scribble/collision_detection_narrow.pdf) |
 | (10)<br> Jun. 21 | **Continuum Mechanics**<br> tensor, stress and strain | ~~task9~~ | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_fluidcontinuum.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/mech_fluidgoverning.pdf) | [[12]](http://www.nobuyuki-umetani.com/scribble/tensor.pdf) |
 | (11)<br> Jun. 28 | **Continuum Mechanics2**<br>Mesh interpolation<br />Finite elemenet method | [task10](task10) | [[1]](http://www.nobuyuki-umetani.com/scribble/fem_outline.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/fem_linearsolid.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/fem_mitc3.pdf) | [[4]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf) |
@@ -121,7 +121,7 @@ There are many small programming assignments. To do the assignments, you need to
 - [[18] pca](http://www.nobuyuki-umetani.com/scribble/pca.pdf)
 - [[19] optimization](http://www.nobuyuki-umetani.com/scribble/optimization.pdf)
 - [[20] matrix_data_structure](http://www.nobuyuki-umetani.com/scribble/matrix_data_structure.pdf)
-- [[21] rotation](http://www.nobuyuki-umetani.com/scribble/rotation.pdf)
+- [[21] rotation representation](http://www.nobuyuki-umetani.com/scribble/rotation.pdf)
 
 
 

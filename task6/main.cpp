@@ -113,6 +113,7 @@ void Optimize(
       vecB(ip0*2+idim) += dW[0][idim];
       vecB(ip1*2+idim) += dW[1][idim];
       // write something around here to put the areal constraint
+      // Note that the "np*2"-th DoF is for the Lagrange multiplier
     }
   }
 
