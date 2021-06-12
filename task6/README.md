@@ -36,7 +36,6 @@ Build the `main.cpp` using `cmake`. Run the program and take a screenshot image 
 You will probably see a **highly distorted polygon shrinking **, but that's OK. 
 
 
-
 ## Problem 2
 
 Optimize the positions of the vertices of a 2D polygon such that its **area becomes one and the sum of the squred length of the edges (i.e., energy) is minimized**. The Lagrange multiplier method needs to be used. See the slide below for the overview of Lagrange multiplier method and its implementation. 
