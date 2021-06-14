@@ -1,6 +1,5 @@
-# Task7: Rotation 
+# Task7: Optimization of Rotation 
 
-- Optimization of rotation 
 - **Deadline: June 17th (Thursday) at 15:00**
 
 ![preview](preview.png)
@@ -39,6 +38,16 @@ Build the `main.cpp` using `cmake`. Run the program and take a screenshot image 
 ## Problem 2
 
 Optimize the rotation matrix `R` such that the sum of squared distances between the rotated source points and fixed target points are minimized. Use the Netwon's method for the energy minimization. Write some code around line #71 in the `main.cpp` to compute the gradient and hessian of the energy of one pair of source and target points. (The modifications are probably very little, just two lines of short codes). **Once the implementation is successful, the energy should steadly decrease.** 
+
+The following slides **may be** useful for this assignments:
+
+![](slide_rotation0.png)
+
+![](slide_rotation1.png)
+
+![](slide_rotation2.png)
+
+
 
 Report the energy after convergence: 
 
