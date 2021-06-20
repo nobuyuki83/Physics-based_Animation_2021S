@@ -38,7 +38,7 @@ Build the program using `cmake`. Run the program and take a screenshot image of 
 
 ## Problem 2
 
-Currently the problem minimize the energy of a mass-spring system (see [task3)](../task3). Use the **variational implicit Euler scheme **[[16]](http://www.nobuyuki-umetani.com/scribble/variational_integration.pdf) to -change the static optimization into dynamic animation. Edit the function `AnimationByEnergyMinimization`  from line 104 to 169.
+Currently the problem minimize the energy of a mass-spring system (see [task3)](../task3). Use the **variational implicit Euler scheme** [[16]](http://www.nobuyuki-umetani.com/scribble/variational_integration.pdf) to -change the static optimization into dynamic animation. Edit the function `AnimationByEnergyMinimization`  from line 104 to 169.
 
 The following slide may be useful :
 
