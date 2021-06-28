@@ -50,3 +50,5 @@ eigen-*
 CMakeFiles
 
 .DS_Store
+
+!task11/fertility.obj
