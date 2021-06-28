@@ -9,11 +9,11 @@
 #include <Eigen/Eigenvalues>
 
 /**
- *
- * @param cg
- * @param aXYZ
- * @param aTri
- * @return
+ * mass and the center of gravity for 3D triangle mesh
+ * @param[out] cg the center of gravity
+ * @param[in] aXYZ 3D coordinates
+ * @param[in] aTri triangle indexes
+ * @return mass
  */
 double MassCenterofgravity_MeshTri3(
     double cg[3],
@@ -37,10 +37,10 @@ double MassCenterofgravity_MeshTri3(
 }
 
 /**
- *
- * @param Imat
- * @param aXYZ
- * @param aTri
+ * compute inertia tensor
+ * @param[out] Imat 3x3 inertia tensor
+ * @param[in] aXYZ 3D coordinates
+ * @param[in] aTri triangle indices
  */
 void InertiaTensor(
     Eigen::Matrix3d& Imat,
@@ -48,24 +48,24 @@ void InertiaTensor(
     std::vector<unsigned int>& aTri)
 {
   // zero clear Imat
-  Imat = 1.0e-5*Eigen::Matrix3d::Identity();
+  Imat = 1.0e-5*Eigen::Matrix3d::Identity(); // zero clear the tensor
   for(unsigned int it=0;it<aTri.size()/3;++it){
-    const Eigen::Vector3d ap[3] = {
+    const Eigen::Vector3d ap[3] = { // coordinates of triangle corner points
         Eigen::Map<Eigen::Vector3d>(aXYZ.data()+aTri[it*3+0]*3),
         Eigen::Map<Eigen::Vector3d>(aXYZ.data()+aTri[it*3+1]*3),
         Eigen::Map<Eigen::Vector3d>(aXYZ.data()+aTri[it*3+2]*3)
     };
-    const double area = (ap[1]-ap[0]).cross(ap[2]-ap[0]).norm()/2;
+    const double area = (ap[1]-ap[0]).cross(ap[2]-ap[0]).norm()/2; // area of triangle
     // write some code below to compute inertia tensor
   }
 }
 
 /**
  * Read 3D mesh file in Alias *.Obj format
- * @tparam REAL
- * @param path_file
- * @param aXYZ
- * @param aTri
+ * @tparam REAL float or double
+ * @param[in] path_file path
+ * @param[out] aXYZ 3D coordinates
+ * @param[out] aTri triangle indices
  */
 template <typename REAL>
 void Read_Obj(

@@ -44,9 +44,9 @@ Run the program and take a screenshot image of the window. Paste the screenshot 
 
 ## Problem 2
 
-Edit `main.cpp` to compute the 3x3 inertia tensor of a 3D mesh.   
-Note that the mass is distributed only on the surface of the mesh (i.e., the shape is hollow inside the mesh).
-The areal mass density of the surface is one. 
+Edit `main.cpp` to compute the 3x3 inertia tensor of a 3D mesh.
+Note that **the mass is distributed only on the surface of the mesh** (i.e., the shape is hollow inside the mesh).
+**The areal mass density of the surface is one**. 
 The edit is probably only necessary around line #59 adding few lines of codes.
 
 The inertia tensor should computed for the **rotation around the origin of the coordinate**. 
