@@ -6,7 +6,7 @@
 
 ## Setting Up
 
-Pleae look at the following document for environment setup, creating branch, and making pull request.
+Please look at the following document for environment setup, creating branch, and making pull request.
 
 - [How to Submit the Assignment](../doc/submit.md)
 
@@ -22,7 +22,16 @@ $ cd pba-<username> # go to the top of local repository
 $ git submodule update --init 3rd_party/delfem2
 ```
 
-(DelFEM2 is a collection of useful C++ codes written by the instructer.)
+(DelFEM2 is a collection of useful C++ codes written by the instructor.)
+
+
+
+## 3D View control
+
+- Alt + Left mouse drag = rotation
+- Shift + Left mouse drag = translation 
+- Mouse wheel = zoom in/out
+  
 
 
 ## Problem1
@@ -31,11 +40,6 @@ Build the program using `cmake`.
 Run the program and take a screenshot image of the window. Paste the screenshot image below by editing this mark down document:
 
 === paste screenshot here ===
-
-
-View control
-- Alt + Left mouse drag = rotation
-- Shift + Left mouse drag = translation 
 
 
 ## Problem 2
@@ -48,9 +52,17 @@ Compute the rotation around the origin of the coordinate.
 The mesh is already translated such that the center of the mass is located at the origin.
 The line in red, blue and green is be the principal axis of hte inertia tensor.
 
-Paste the image below:
+Write down the eigenvalues of the inertia tensor below (they will be shown in the standard output):
+- 1st eigenvalue: 
+- 2nd eigenvalue: 
+- 3rd eigenvalue: 
+
+
+Paste the screenshot image below:
 
 === paste screenshot here ===
+
+
 
 The following slides may be useful:
 
@@ -59,6 +71,8 @@ The following slides may be useful:
 ![](slide1.png)
 
 ![](slide2.png)
+
+![](slide3.png)
 
 
 
