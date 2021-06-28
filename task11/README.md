@@ -44,13 +44,14 @@ Run the program and take a screenshot image of the window. Paste the screenshot 
 
 ## Problem 2
 
-Edit `main.cpp` to compute the 3x3 inertia tensor of a 3D mesh. 
+Edit `main.cpp` to compute the 3x3 inertia tensor of a 3D mesh.   
 Note that the mass is distributed only on the surface of the mesh (i.e., the shape is hollow inside the mesh).
 The areal mass density of the surface is one. 
+The edit is probably only necessary around line #59 adding few lines of codes.
 
-Compute the rotation around the origin of the coordinate. 
-The mesh is already translated such that the center of the mass is located at the origin.
-The line in red, blue and green is be the principal axis of hte inertia tensor.
+The inertia tensor should computed for the **rotation around the origin of the coordinate**. 
+(the mesh is already translated such that the center of the mass is located at the origin).
+The line in red, blue and green are the principal axes of the inertia tensor.
 
 Write down the eigenvalues of the inertia tensor below (they will be shown in the standard output):
 - 1st eigenvalue: 
