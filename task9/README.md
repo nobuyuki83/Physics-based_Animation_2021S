@@ -9,7 +9,7 @@
 
 Please look at the following document for environment setup, creating branch, and making pull request.
 
-[How to Submit the Assignment](../doc/submit.md)
+- [How to Submit the Assignment](../doc/submit.md)
 
 In this assignment, it is necessary to install [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page) library. Please follow the following document for setting up.    
 
@@ -38,8 +38,8 @@ Paste the image below.
 ## Problem 2
 
 Edit `main.cpp` to implement the 2D shape matching deformation [1].
-The rectangular shape is represented as a quad mesh, and the bottom part of the rectangle is shaken horizontally. 
-In the shape matching deformation, we need to fit each quad in the rest shape into the quad in the tentative shape by optimal rigid transformation. 
+The rectangular shape is represented by a quad mesh, and the bottom part of the rectangle is shaken horizontally. 
+In the shape matching deformation, we need to fit each quad in the rest shape into the corresponding quad in the tentative shape by optimal rigid transformation. 
 The edits should be necessary only around line #123. 
 Paste the screenshot image of the program once it is finished.
 
@@ -55,9 +55,9 @@ The following slides may be useful
 ![](slide0.png)
 
 ![](slide1.png)
- 
+
 -  [JacobiSVD module in Eigen](https://eigen.tuxfamily.org/dox/classEigen_1_1JacobiSVD.html)
- 
+
 - [1] Matthias Müller, Bruno Heidelberger, Matthias Teschner, and Markus Gross. 2005. Meshless deformations based on shape matching. In ACM SIGGRAPH 2005 Papers (SIGGRAPH '05).
 
 

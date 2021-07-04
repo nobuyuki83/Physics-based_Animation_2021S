@@ -58,7 +58,7 @@ Topics:
 | (9)<br> Jun. 14 | **Rigid Body Dynamics2**<br/>inertia tensor, <br/>angular velocity<br>impulse based method | [task7](task7)<br>deadline: June 17th | | [[10]](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf) |
 | (10)<br> Jun. 21 | Lagrangian mechanics<br />Variational time integration<br />**Continuum Mechanics**<br> tensor | [task8](task8)<br>deadline: June 24th | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_fluidcontinuum.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/mech_fluidgoverning.pdf) | [[17]](http://www.nobuyuki-umetani.com/scribble/lagrangian_mechanics.pdf), [[16] ](http://www.nobuyuki-umetani.com/scribble/variational_integration.pdf) |
 | (11)<br> Jun. 28 | **Continuum Mechanics2**<br>Mesh interpolation<br />Tensor | [task11](task11)<br>deadline: July 1st | [[1]](http://www.nobuyuki-umetani.com/scribble/fem_outline.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/fem_linearsolid.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/fem_mitc3.pdf) | [[4]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf), [[12]](http://www.nobuyuki-umetani.com/scribble/tensor.pdf) |
-| (12)<br> Jul. 5  | **Non-physical Deformation**<br> singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | [task9](task9)<br>deadline: July 8th | | [[22]](http://www.nobuyuki-umetani.com/scribble/non-physical_deformation.pdf) |
+| (12)<br> Jul. 5  | **Non-physical Deformation**<br> singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | [task9](task9)<br>deadline: July 8th | | [[22]](http://www.nobuyuki-umetani.com/scribble/non_physical_deformation.pdf) |
 | (13)<br> Jul. 12 | **Boundary Element Method**<br> fundamental solution,<br> thin-plate spline interpolation,<br> radial based function | [task10](task10) | [[1]](http://www.nobuyuki-umetani.com/scribble/bem_laplace.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/bem_helmholtz.pdf) |  |
 
 
@@ -122,7 +122,7 @@ There are many small programming assignments. To do the assignments, you need to
 - [[19] optimization](http://www.nobuyuki-umetani.com/scribble/optimization.pdf)
 - [[20] matrix_data_structure](http://www.nobuyuki-umetani.com/scribble/matrix_data_structure.pdf)
 - [[21] rotation representation](http://www.nobuyuki-umetani.com/scribble/rotation.pdf)
-- [[22]non_physical_deformation](http://www.nobuyuki-umetani.com/scribble/non-physical_deformation.pdf)
+- [[22]non_physical_defmormation](http://www.nobuyuki-umetani.com/scribble/non_physical_deformation.pdf)
 
 
 
