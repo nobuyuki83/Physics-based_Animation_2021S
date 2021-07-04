@@ -58,8 +58,8 @@ Topics:
 | (9)<br> Jun. 14 | **Rigid Body Dynamics2**<br/>inertia tensor, <br/>angular velocity<br>impulse based method | [task7](task7)<br>deadline: June 17th | | [[10]](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf) |
 | (10)<br> Jun. 21 | Lagrangian mechanics<br />Variational time integration<br />**Continuum Mechanics**<br> tensor | [task8](task8)<br>deadline: June 24th | [[1]](http://www.nobuyuki-umetani.com/scribble/mech_fluidcontinuum.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/mech_fluidgoverning.pdf) | [[17]](http://www.nobuyuki-umetani.com/scribble/lagrangian_mechanics.pdf), [[16] ](http://www.nobuyuki-umetani.com/scribble/variational_integration.pdf) |
 | (11)<br> Jun. 28 | **Continuum Mechanics2**<br>Mesh interpolation<br />Tensor | [task11](task11)<br>deadline: July 1st | [[1]](http://www.nobuyuki-umetani.com/scribble/fem_outline.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/fem_linearsolid.pdf), [[3]](http://www.nobuyuki-umetani.com/scribble/fem_mitc3.pdf) | [[4]](http://www.nobuyuki-umetani.com/scribble/grid_mesh_interpolation.pdf), [[12]](http://www.nobuyuki-umetani.com/scribble/tensor.pdf) |
-| (12)<br> Jul. 5  | **Non-physical Deformation**<br> singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | [task9](task9) | |  |
-| (13)<br> Jul. 12 | **Boundary Element Method**<br> Green’s functions,<br> thin-plate spline interpolation,<br> radial based function | [task10](task10) | [[1]](http://www.nobuyuki-umetani.com/scribble/bem_laplace.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/bem_helmholtz.pdf) |  |
+| (12)<br> Jul. 5  | **Non-physical Deformation**<br> singular value decomposition,<br> shape matching method,<br> linear blend skinning,<br> as-rigid-as possible deformation | [task9](task9)<br>deadline: July 8th | | [[22]](http://www.nobuyuki-umetani.com/scribble/non-physical_deformation.pdf) |
+| (13)<br> Jul. 12 | **Boundary Element Method**<br> fundamental solution,<br> thin-plate spline interpolation,<br> radial based function | [task10](task10) | [[1]](http://www.nobuyuki-umetani.com/scribble/bem_laplace.pdf), [[2]](http://www.nobuyuki-umetani.com/scribble/bem_helmholtz.pdf) |  |
 
 
 ## Grading
@@ -112,7 +112,6 @@ There are many small programming assignments. To do the assignments, you need to
 - [[8] linear_system_solver](http://www.nobuyuki-umetani.com/scribble/linear_system_solver.pdf)
 - [[9] optimization with constraints](http://www.nobuyuki-umetani.com/scribble/optimization_with_constraints.pdf)
 - [[10] rigid_body_dynamics](http://www.nobuyuki-umetani.com/scribble/rigid_body_dynamics.pdf)
-- [[11] collision_detectoin_narrow](http://www.nobuyuki-umetani.com/scribble/collision_detection_narrow.pdf)
 - [[12] tensor](http://www.nobuyuki-umetani.com/scribble/tensor.pdf)
 - [[13] cpp language](http://www.nobuyuki-umetani.com/scribble/cpp.pdf)
 - [[14] newtonian mechanics](http://www.nobuyuki-umetani.com/scribble/newtonian_mechanics.pdf)
@@ -123,6 +122,7 @@ There are many small programming assignments. To do the assignments, you need to
 - [[19] optimization](http://www.nobuyuki-umetani.com/scribble/optimization.pdf)
 - [[20] matrix_data_structure](http://www.nobuyuki-umetani.com/scribble/matrix_data_structure.pdf)
 - [[21] rotation representation](http://www.nobuyuki-umetani.com/scribble/rotation.pdf)
+- [[22]non_physical_deformation](http://www.nobuyuki-umetani.com/scribble/non-physical_deformation.pdf)
 
 
 
@@ -131,8 +131,7 @@ There are many small programming assignments. To do the assignments, you need to
 
 - [Physically Based Modeling: Principles and Practice, Siggraph '97 Course notes by Dr. Baraff](http://www.cs.cmu.edu/~baraff/sigcourse/index.html)
 - [Physics-Based Animation  by Kenny Erleben et al. (free textobook about rigid body dynamics)](https://iphys.wordpress.com/2020/01/12/free-textbook-physics-based-animation/)
-- [Dynamic Deformables: Implementation and Production PracticalitiesSIGGRAPH Courses, 2020](http://www.tkim.graphics/DYNAMIC_DEFORMABLES/)
+- [Dynamic Deformables: Implementation and Production Practicalities, SIGGRAPH 2020 Courses](http://www.tkim.graphics/DYNAMIC_DEFORMABLES/)
 - [Awesome Computer Graphics (GitHub)](https://github.com/luisnts/awesome-computer-graphics)
-
-  
+- [Skinning: Real-time Shape Deformation SIGGRAPH 2014 Course](https://skinning.org/)
 

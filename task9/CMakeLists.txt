@@ -23,9 +23,17 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindGLFW.cmake)
 find_package(OpenGL REQUIRED)
 
 # delfem2
-# dfm2
 add_definitions(-DDFM2_HEADER_ONLY=ON)
 set(DELFEM2_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/delfem2/include")
+
+# eigen
+FILE(GLOB EIGEN3_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/eigen*) # find downloaded eigen directories in 3rd_party
+SET(EIGEN3_ROOT
+    ${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/Eigen_Lib/include # installed eigen is higher priority
+    ${EIGEN3_ROOT} ) # specify candidate for eigen location
+include(${CMAKE_CURRENT_SOURCE_DIR}/../3rd_party/FindEigen3.cmake) # call script to find eigen3
+#find_package(Eigen3 REQUIRED) # this works only for installation from package manager
+message(STATUS "eigen3 locatoin: ${EIGEN3_INCLUDE_DIR}")
 
 ################################
 
@@ -33,6 +41,7 @@ include_directories(
   ${OPENGL_INCLUDE_DIR}
   ${GLFW_INCLUDE_DIR}
   ${DELFEM2_INCLUDE_DIR}
+  ${EIGEN3_INCLUDE_DIR}
 )
 
 add_executable(${PROJECT_NAME}
