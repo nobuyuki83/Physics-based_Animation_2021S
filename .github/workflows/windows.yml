@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main, task0, task1, task2, task3, task4, task5, task6, task7, task10, task11, task12 ]
+    branches: [ main, task0, task1, task2, task3, task4, task5, task6, task7, task8, task9, task11]
 
 env:
   BUILD_TYPE: Debug
